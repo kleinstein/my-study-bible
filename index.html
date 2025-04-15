@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStudyBible</title>
+    <style>
+        /* 기본 스타일 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #4a90e2;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 헤더 스타일 */
+        header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background-color: white;
+            color: #2575fc;
+            font-weight: bold;
+            padding: 12px 30px;
+            border-radius: 30px;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* 섹션 공통 스타일 */
+        section {
+            padding: 80px 0;
+        }
+        
+        section h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+        
+        /* 소개 섹션 */
+        .intro {
+            background-color: white;
+            text-align: center;
+        }
+        
+        .intro p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        
+        /* 기능 섹션 */
+        .features {
+            background-color: #f5f7ff;
+        }
+        
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #2575fc;
+            margin-bottom: 20px;
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        /* 스크린샷 섹션 */
+        .screenshots {
+            background-color: white;
+            text-align: center;
+        }
+        
+        .screenshot-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 20px 0;
+        }
+        
+        .screenshot {
+            height: 550px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* 문의 섹션 */
+        .support {
+            background-color: #f5f7ff;
+            text-align: center;
+        }
+        
+        .support p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .contact-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            font-weight: bold;
+            padding: 12px 30px;
+            border-radius: 30px;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* 푸터 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 0.9rem;
+        }
+        
+        footer p {
+            margin-bottom: 10px;
+        }
+        
+        /* 반응형 */
+        @media (max-width: 768px) {
+            header {
+                padding: 60px 0;
+            }
+            
+            header h1 {
+                font-size: 2.2rem;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+            
+            section h2 {
+                font-size: 1.8rem;
+                margin-bottom: 30px;
+            }
+            
+            .feature-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .feature-card {
+                width: 100%;
+                max-width: 350px;
+            }
+            
+            .screenshot {
+                height: 450px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 섹션 -->
+    <header>
+        <div class="container">
+            <img src="MyStudyBibleAppIcon.png" alt="MyStudyBible 앱 아이콘" class="app-icon">
+            <h1>MyStudyBible</h1>
+            <p>아이폰에서 사용할 나의 성경 공부 도구</p>
+            <a href="https://apps.apple.com/app/id6743988874" class="download-btn">App Store에서 다운로드</a>
+        </div>
+    </header>
+
+    <!-- 소개 섹션 -->
+    <section class="intro">
+        <div class="container">
+            <h2>MyStudyBible 소개</h2>
+            <p>
+                MyStudyBible 소개
+            </p>
+        </div>
+    </section>
+
+    <!-- 기능 섹션 -->
+    <section class="features">
+        <div class="container">
+            <h2>주요 기능</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>다양한 성경 역본</h3>
+                    <p>개역개정, 개역한글, 표준새번역, NIV, ESV 등 다양한 역본을 제공합니다.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖍️</div>
+                    <h3>하이라이트 & 노트</h3>
+                    <p>중요한 구절을 하이라이트하고 개인 노트를 추가하여 성경 공부를 더욱 깊게 할 수 있습니다.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>강력한 검색</h3>
+                    <p>단어, 구절, 주제별로 빠르고 정확한 검색 기능을 제공합니다.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>읽기 계획</h3>
+                    <p>다양한 성경 읽기 계획으로 꾸준히 말씀을 가까이할 수 있습니다.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>성경 해설</h3>
+                    <p>각 구절에 대한 해설과 주석으로 성경의 배경과 의미를 더 잘 이해할 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 스크린샷 섹션 -->
+    <section class="screenshots">
+        <div class="container">
+            <h2>앱 스크린샷</h2>
+            <div class="screenshot-gallery">
+                <img src="/api/placeholder/270/550" alt="메인 화면" class="screenshot">
+                <img src="/api/placeholder/270/550" alt="성경 읽기 화면" class="screenshot">
+                <img src="/api/placeholder/270/550" alt="하이라이트 기능" class="screenshot">
+                <img src="/api/placeholder/270/550" alt="노트 기능" class="screenshot">
+            </div>
+        </div>
+    </section>
+
+    <!-- 지원 섹션 -->
+    <section class="support">
+        <div class="container">
+            <h2>도움이 필요하신가요?</h2>
+            <p>MyStudyBible 사용 중 궁금한 점이나 문제가 있으시면 언제든지 문의해 주세요. 최대한 빠르게 답변 드리겠습니다.</p>
+            <a href="mailto:support@mystudybible.app" class="contact-btn">이메일로 문의하기</a>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="container">
+            <p>© 2025 MyStudyBible. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // 스크롤 애니메이션 추가
+        document.addEventListener('DOMContentLoaded', function() {
+            const featureCards = document.querySelectorAll('.feature-card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            featureCards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(card);
+            });
+            
+            // 스크린샷 갤러리 스와이프 기능
+            const gallery = document.querySelector('.screenshot-gallery');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+            
+            gallery.addEventListener('mousedown', (e) => {
+                isDown = true;
+                startX = e.pageX - gallery.offsetLeft;
+                scrollLeft = gallery.scrollLeft;
+            });
+            
+            gallery.addEventListener('mouseleave', () => {
+                isDown = false;
+            });
+            
+            gallery.addEventListener('mouseup', () => {
+                isDown = false;
+            });
+            
+            gallery.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - gallery.offsetLeft;
+                const walk = (x - startX) * 2;
+                gallery.scrollLeft = scrollLeft - walk;
+            });
+        });
+    </script>
+</body>
+</html>
