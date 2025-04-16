@@ -249,7 +249,85 @@
         <div class="container">
             <h2>MyStudyBible 소개</h2>
             <p>
-                MyStudyBible 소개
+                아래와 같은 형식의 데이터베이스 파일들을 지원하는 성경앱입니다.
+            </p>
+            <br>
+            <p>
+                 지원하는 Sqlite 데이터베이스 형식:
+            </p>
+            <br>
+            <p>
+
+        <div class="schema-container">
+            <h4>성경 데이터</h4>
+            <div class="description">성경 구절을 저장하는 테이블 구조입니다.</div>
+            <pre><code>CREATE TABLE "Bible" (
+                "Book" INT,
+                "Chapter" INT,
+                "Verse" INT,
+                "Scripture" TEXT
+            )</code></pre>
+                    </div>
+                    <br>
+                    <div class="schema-container">
+                        <h4>주석 데이터</h4>
+                        <div class="description">성경 구절에 대한 주석 정보를 저장하는 테이블 구조입니다.</div>
+                        <pre><code>CREATE TABLE "commentary" (
+                "id" INTEGER,
+                "book" INTEGER,
+                "chapter" INTEGER,
+                "fromverse" INTEGER,
+                "toverse" INTEGER,
+                "data" TEXT
+            )</code></pre>
+                    </div>
+                    <br>
+                    <div class="schema-container">
+                        <h4>관주 데이터</h4>
+                        <div class="description">성경 구절 간의 참조 관계를 저장하는 테이블 및 뷰 구조입니다.</div>
+                        <pre><code>CREATE TABLE xrefs(
+                id integer primary key, 
+                vi1 int, 
+                vi2 int
+            )
+
+            CREATE VIEW xrefs_bcv as 
+                select 
+                    id, 
+                    (vi1 & 2130706432)>>24 fbi, 
+                    (vi1 & 16711680)>>16 fci, 
+                    (vi1 & 65280)>>8 fvi, 
+                    (vi1 & 255) fspan, 
+                    (vi2 & 2130706432)>>24 tbi, 
+                    (vi2 & 16711680)>>16 tci, 
+                    (vi2 & 65280)>>8 tvi, 
+                    (vi2 & 255) tspan 
+                from xrefs</code></pre>
+                    </div>
+                    <br>
+                    <div class="schema-container">
+                        <h4>지도 데이터</h4>
+                        <div class="description">성경 속 지명과 위치 정보를 저장하는 테이블 구조입니다.</div>
+                        <pre><code>CREATE TABLE verse(
+                id INTEGER PRIMARY KEY, 
+                book INTEGER, 
+                chapter INTEGER, 
+                verse INTEGER, 
+                location TEXT collate nocase
+            )
+
+            CREATE TABLE location(
+                id INTEGER PRIMARY KEY, 
+                location TEXT collate nocase, 
+                root TEXT collate nocase, 
+                locinfo TEXT, 
+                lat DOUBLE, 
+                lon DOUBLE, 
+                verses TEXT collate nocase, 
+                comment TEXT collate nocase
+            )</code></pre>
+                    </div>
+
             </p>
         </div>
     </section>
