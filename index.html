@@ -143,19 +143,22 @@
             background-color: white;
             text-align: center;
         }
-        
+
         .screenshot-gallery {
             display: flex;
-            justify-content: center;
+            /* justify-content: center; /* 제거 또는 주석 처리 */
+            justify-content: flex-start; /* 명시적으로 시작 정렬 */
             gap: 20px;
-            overflow-x: auto;
-            padding: 20px 0;
+            overflow-x: auto; /* 가로 스크롤 활성화 */
+            padding: 20px 0; /* 위아래 패딩, 좌우 패딩은 0 */
+            /* 좌우 패딩을 .container 에서 제어하므로 여기서는 0이 적절 */
         }
-        
+
         .screenshot {
             height: 550px;
             border-radius: 20px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0; /* 이미지가 컨테이너 너비에 맞춰 줄어들지 않도록 추가하면 좋습니다 */
         }
         
         /* 문의 섹션 */
