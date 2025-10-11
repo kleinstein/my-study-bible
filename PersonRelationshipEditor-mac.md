@@ -58,13 +58,13 @@
 <img src="PersonRelationshipEditor_1_0_Images/right-relation.png" width="800">
 
 ##### 등장하는 구절
-
+- **왼쪽의 인물 목록 탭에서 선택된 인물**이 등장하는 모든 구절들이 표시됩니다.
 <img src="PersonRelationshipEditor_1_0_Images/right-verse.png" width="800">
 
 ##### 새 인물
-
+- 새로운 인물을 저장하고 싶을때 사용됩니다.
 <img src="PersonRelationshipEditor_1_0_Images/right-new-person1.png" width="800">
 
-- '새 인물로 저장' 버튼을 눌렀을때 이미 저장되어 있는 인물과 동명이인인지 확인하고 새 인물로 저장할지, 기존의 저장된 인물과 동일인물인지 선택합니다.
+- 새로운 인물에 대한 정보들을 입력하고 '새 인물로 저장' 버튼을 눌렀을때, 자동으로 이미 저장되어 있는 인물과 동명이인인지 체크하는 창이 뜨게됩니다. 이 창에서 새 인물로 저장할지, 아니면 기존의 저장된 인물과 동일인물인지 확인한 후 선택합니다.
 <img src="PersonRelationshipEditor_1_0_Images/right-new-person-check.png" width="800">
 
