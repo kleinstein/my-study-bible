@@ -21,6 +21,7 @@
 - 현재 person_relationships.sqlite 파일에 저장되어 있는 모든 인물들이 리스트로 표시됩니다.
 - 인물의 이름 위에서 마우스 우클릭을 하면 '성경에서 검색', '사전에서 검색'을 곧바로 실행할수 있습니다.
 - **인물 목록에서 선택한 인물이** 이 편집기에서는 **항상 기준 인물** 역할을 합니다. 
+<img src="PersonRelationshipEditor_1_0_Images/left-person-mouse-right-click.png" width="800">
 
 ##### 성경 검색
 - 성경에서 입력한 단어로 검색을 합니다.
