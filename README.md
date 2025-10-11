@@ -39,6 +39,13 @@
 ##### 인물 관계를 입력하고 관리할 수 있습니다.
 - 더블 탭으로 메뉴를 열면 '인물관계 편집' 메뉴가 표시됩니다.
 - 인물 관계가 저장된 구절뒤에는 인물 아이콘이 표시되고, 인물 아이콘을 탭하면 인물관계 창이 표시됩니다. 
+<div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
+  <img src="MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
+</div>
 
 ##### 맥과 윈도우용 인물관계 편집기를 같이 배포할 예정입니다.
 - 복잡한 인물관계를 작은 아이폰 화면에서 편집하기 힘들때가 많아 맥과 윈도우에서 실행할수 있는 인물관계 편집기를 파이썬과 pyQT6 라이브러리를 이용해 만들었습니다. AI가 많은 도움을 주었습니다. ;-)
