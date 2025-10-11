@@ -33,6 +33,7 @@
 - 메인 화면 아래에 표시된 성경의 내용이 표시됩니다.
 - 성경의 장 전체가 표시됩니다.
 - 원하는 장으로 가기위해 책이름과 장을 넣으면 해당 장으로 이동하실수 있습니다.
+- 아래의 스크린샷은 성경 검색 결과에서 더블클릭을 통해 자동으로 열린 성경 구절 부분입니다.
 <img src="PersonRelationshipEditor_1_0_Images/left-bible.png" width="800">
 
 ##### 사전
@@ -42,8 +43,27 @@
 <img src="PersonRelationshipEditor_1_0_Images/left-dict.png" width="800">
 
 ### 오른쪽 탭들
-
 ##### 인물 정보
+- **왼쪽의 인물 목록 탭에서 선택된 인물에 대한 정보가 나오는 창입니다.**
+- 이곳에서 내용을 수정하면 자동으로 즉시 저장됩니다.
+- 이곳에서 인물을 삭제하면 이 인물과 관계된 모든 관계들도 삭제됩니다.
+<img src="PersonRelationshipEditor_1_0_Images/main.png" width="800">
+
 ##### 관계 관리
+- **왼쪽의 인물 목록 탭에서 선택된 인물과 관계가 있는 모든 관계가 나오는 창입니다.**
+- 인물 사이의 관계란 항상 양방향의 관계라서 양방향 관계를 모두 관리하는게 나중에 관계를 추적할때 좋습니다.
+- **기준 인물** 과 **대상 인물** 이 있어서 누가 기준인가에 따라, 예를 들면 {기준인물}의 '아들'이 {대상인물}의 형식으로 표시됩니다.
+- 현재 선택된 기준 인물은 푸른색 바탕으로 표시되어 알아보기 쉽게 했습니다.
+- 두 인물간의 관계를 알게해주는 관련구절을 입력하면 나중에 인물 관계를 확인하기 좋습니다. 
+<img src="PersonRelationshipEditor_1_0_Images/right-relation.png" width="800">
+
 ##### 등장하는 구절
+
+<img src="PersonRelationshipEditor_1_0_Images/right-person.png" width="800">
+
 ##### 새 인물
+
+<img src="PersonRelationshipEditor_1_0_Images/right-person.png" width="800">
+
+- '새 인물로 저장' 버튼을 눌렀을때 이미 저장되어 있는 인물과 동명이인인지 확인하고 새 인물로 저장할지, 기존의 저장된 인물과 동일인물인지 선택합니다.
+<img src="PersonRelationshipEditor_1_0_Images/right-person.png" width="800">
