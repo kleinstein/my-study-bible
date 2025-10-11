@@ -63,7 +63,8 @@
 
 ##### 새 인물
 
-<img src="PersonRelationshipEditor_1_0_Images/right-person1.png" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-new-person1.png" width="800">
 
 - '새 인물로 저장' 버튼을 눌렀을때 이미 저장되어 있는 인물과 동명이인인지 확인하고 새 인물로 저장할지, 기존의 저장된 인물과 동일인물인지 선택합니다.
-<img src="PersonRelationshipEditor_1_0_Images/right-person-check.png" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-new-person-check.png" width="800">
+
