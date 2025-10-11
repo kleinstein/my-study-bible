@@ -50,13 +50,15 @@
 
 ##### 맥과 윈도우용 인물관계 편집기를 같이 배포할 예정입니다.
 - 복잡한 인물관계를 작은 아이폰 화면에서 편집하기 힘들때가 많아 맥과 윈도우에서 실행할수 있는 인물관계 편집기를 파이썬과 pyQT6 라이브러리를 이용해 만들었습니다. AI가 많은 도움을 주었습니다. ;-)
-[인물관계 편집기](https://kleinstein.github.io/my-study-bible/#/PersonRelationshipEditor-mac)
+
+- [인물관계 편집기 설명서 보기](https://kleinstein.github.io/my-study-bible/#/PersonRelationshipEditor-mac)
 
 ##### 아이클라우드 드라이브를 지원합니다.
-###### 설정창에서 아이클라우드 동기화를 켜거나 끌수 있습니다. 
+- 설정창에서 아이클라우드 동기화를 켜거나 끌수 있습니다. 
 - 아이클라우드 동기화가 꺼져있으면 사용자가 폴더에 복사해 넣은 모든 파일들은 '나의 iPhone' -> MyStudyBible 폴더 아래에 모두 저장되고 업데이트 됩니다. 
 - 아이클라우드 동기화가 켜져있으면 '나의 iPhone' -> MyStudyBible 폴더 아래의 모든 파일들의 '아이클라우드'->MyStudyBible 폴더로 복사되고 그곳에서 업데이트 됩니다.
 
+<img src="images/my-image.jpg" style="height: 600px; width: auto;">
 
 ### 2.3 에서 추가된 주요 기능들
 3 가지 보기 모드 추가. 비교보기와 대조보기에서는 항상 기준 성경에만 구절 뒤에 3가지 아이콘(노트, 북마크, 관주아이콘)이 표시됩니다.
