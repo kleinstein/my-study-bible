@@ -18,9 +18,14 @@
 - 스트롱번호를 탭하면 MyStudyBible->dict 폴더아래에 있는 MySword 용 스트롱사전 파일을 참조해서 팝업창에 그 의미와 내용이 표시됩니다.
 - 알려진 문제: 스트롱번호가 있는 성경에서는 밑줄긋기를 했을때 스트롱번호 표시가 잘 되지 않을수 있습니다.
 
+<div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
+  <img src="MyStudyBible_2_4_Images/strong-view.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/strong-dict.png" style="height: 600px; width: auto;">
+</div>
+
 ##### 일부 원전분해 성경을 지원합니다.
 - 제가 가지고 있는 몇 개의 원전분해 성경은 잘 작동했습니다. 혹시 문제가 있는 성경은 제게 보내주시면 제가 테스트해볼 수 있습니다.
-- 알려진 문제: 원전분해 성경에서는 메뉴에 있는 일부 기능들을 제외하고는 제대로 작동하지 않습니다.
+- 알려진 문제: 원전분해 성경에서는 메뉴의 기능들 대부분이 제대로 작동하지 않을수 있습니다. 뷰어로만 사용해주세요.
 
 ##### 인물 관계를 입력하고 관리할 수 있습니다.
 - 더블 탭으로 메뉴를 열면 '인물관계 편집' 메뉴가 표시됩니다.
