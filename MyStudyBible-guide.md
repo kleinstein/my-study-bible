@@ -1,1 +1,0 @@
-이건 MyStudyBible-guide.md  파일입니다.
