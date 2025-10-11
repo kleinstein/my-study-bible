@@ -77,8 +77,25 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 
 <img src="MyStudyBible_2_4_Images/icloud-sync.png" style="height: 600px; width: auto;">
 
-### 2.3 에서 추가된 주요 기능들
-3 가지 보기 모드 추가. 비교보기와 대조보기에서는 항상 기준 성경에만 구절 뒤에 3가지 아이콘(노트, 북마크, 관주아이콘)이 표시됩니다.
+### 2.3.1 에서 수정된 것들
+
+- 언어 설정이 영어일때 일반보기, 비교보기, 대조보기 모드의 텍스트가 한글로 나오던 문제 해결.
+- 일반보기 모드에서 밑줄을 수정했을때 곧바로 반영되지 않았던 문제 해결.
+  
+- Fixed an issue where text appeared in Korean in Normal View, Comparison View, and Contrast View modes when the language setting was English.
+- Fixed an issue where changes made to underlines in Normal View Mode were not immediately reflected.
+
+
+### 2.3 에서 추가된 기능들:
+
+- 3 가지 보기 모드 추가. 비교보기와 대조보기에서는 항상 기준 성경에만 구절 뒤에 3가지 아이콘(노트, 북마크, 관주아이콘)이 표시됩니다.
+- 좌우 대조 보기에서는 구절복사, 구절범위 복사, 밑줄 긋기가 더블탭한 역본에 적용됩니다. 나머지 기능은 좌측의 기본 성경을 기준으로 작동됩니다.
+- 좌우 대조 보기에서는 노트 아이콘, 책갈피(북마크) 아이콘, 관주 아이콘, 지도 아이콘이 모두 좌측의 기본 성경에만 표시됩니다.
+  
+- Side-by-side comparison view has been added. (Please select the Bible to compare in the settings window first.)
+- In side-by-side view, verse copying, verse range copying, and underlining apply to the version you double-tap. All other functions operate based on the default Bible on the left.
+- In side-by-side view, the note icon, bookmark icon, cross-reference icon, and map icon all appear only on the default Bible on the left.
+
 ##### 일반보기
 하나의 성경 역본만 화면에 표시됩니다.
 ##### 비교보기
