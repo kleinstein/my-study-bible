@@ -27,16 +27,19 @@
 - 성경에서 입력한 단어로 검색을 합니다.
 - AND 버튼을 누르면 OR 버튼으로 바뀌고 이를 통해, 모든 단어가 들어간 구절(AND)이나 한 단어라도 들어간 구절(OR)을 검색할수 있습니다.
 - 검색 결과에서 성경의 '책 장:절' 표시위에서 더블클릭을 하면 성경탭이 자동으로 열리면서 해당 구절이 표시됩니다.
+<img src="PersonRelationshipEditor_1_0_Images/left-bible-search.png" width="800">
 
 ##### 성경
 - 메인 화면 아래에 표시된 성경의 내용이 표시됩니다.
 - 성경의 장 전체가 표시됩니다.
 - 원하는 장으로 가기위해 책이름과 장을 넣으면 해당 장으로 이동하실수 있습니다.
+<img src="PersonRelationshipEditor_1_0_Images/left-bible.png" width="800">
 
 ##### 사전
 - 메인 화면 아래에 표시된 사전의 내용이 표시됩니다.
 - 현재 '에스라 성경 사전'이 인물관계 편집기에 기본 내장되어 있습니다.
 - MDict 용 사전(확장자 .mdx)을 지원합니다.
+<img src="PersonRelationshipEditor_1_0_Images/left-dict.png" width="800">
 
 ### 오른쪽 탭들
 
