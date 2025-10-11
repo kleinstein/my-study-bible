@@ -1,5 +1,8 @@
 # MyStudyBible 앱은 아이폰과 아이패드 전용 앱입니다.
 
+<img src="MyStudyBible_2_4_Images/bibleAppIcon.png" width="200">
+
+<br>
 지금 홈페이지 내용을 업데이트 중입니다.
 
 현재 2.4 버전을 테스트 중에 있습니다. 많은 기능들이 추가 되었습니다.
