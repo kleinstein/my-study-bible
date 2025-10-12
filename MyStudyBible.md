@@ -1,5 +1,3 @@
-이건 MyStudyBible.md 파일
-
 # MyStudyBible 앱 소개
 
 오랫동안 안드로이드의 MySword 성경과 윈도우용 성경앱인 theWord를 사용해왔습니다.
