@@ -57,4 +57,7 @@
   
 ### 다운받기
 
-[앱스토어 다운로드](https://apps.apple.com/us/app/mystudybible/id6743988874)
+[MyStudyBible 앱스토어 다운로드](https://apps.apple.com/us/app/mystudybible/id6743988874)
+  
+[인물관계 편집기 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/5wNOIzYa)
+
