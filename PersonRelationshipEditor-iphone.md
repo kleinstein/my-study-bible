@@ -1,6 +1,6 @@
-모세와 아론의 인물관계를 생성하는 예를 들어 보겠습니다.  
-  
-  
+모세와 아론의 인물관계를 생성하는 예를 들어 보겠습니다.<br>
+<br>
+<br>
 <img src="MyStudyBible_2_4_Images/01_Simulator Screenshot.png" width="400"><br>
 위에서 보듯 출애굽기 2장 10절에 최초로 모세라는 인물이 등장합니다.<br>
 <br>
