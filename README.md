@@ -66,18 +66,18 @@
 아무쪼록 저의 이 작은 결과물이 실제로 성경을 공부하시는 분들께 조금이나마 도움이 되면 좋겠습니다.
   
 ### 다운받기
-<br>
+  
 [MyStudyBible 앱스토어 다운로드](https://apps.apple.com/us/app/mystudybible/id6743988874)  
-<br>
-<br>
+  
+  
 [맥용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/5sGUgHDW)  
 [맥용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/file/d/1YVc41YzpBzvE5vWfVbXOHIu-ZbL4NmXZ/view?usp=sharing)  
-<br>
+  
 [윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GxL7VRWT)  
 [윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/file/d/17ILzBR6OcXqMknYjl_g46wyDPq3upD2Q/view?usp=sharing)  
-<br>
-<br>
-혹시 문의사항이나 버그를 발견하시면 앱스토어의 MyStudyBible 페이지 아래에 등록된 개발자 이메일로 연락주시면 감사드리겠습니다.<br>
-<br>
+  
+  
+혹시 문의사항이나 버그를 발견하시면 앱스토어의 MyStudyBible 페이지 아래에 등록된 개발자 이메일로 연락주시면 감사드리겠습니다.  
+  
 
 
