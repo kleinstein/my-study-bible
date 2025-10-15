@@ -70,8 +70,8 @@
 [MyStudyBible 앱스토어 다운로드](https://apps.apple.com/us/app/mystudybible/id6743988874)  
   
   
-[맥용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/5sGUgHDW)  
-[맥용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/file/d/1YVc41YzpBzvE5vWfVbXOHIu-ZbL4NmXZ/view?usp=sharing)  
+[맥용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GRu5Mz3j)  
+[맥용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/drive/folders/1A6oZ2GKBe6nNGWUiDnpRsL-aX61EcJTc?usp=sharing)  
   
 [윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GxL7VRWT)  
 [윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/file/d/17ILzBR6OcXqMknYjl_g46wyDPq3upD2Q/view?usp=sharing)  
