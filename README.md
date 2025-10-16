@@ -9,6 +9,10 @@
   
 좀 더 자세한 내용은 좌측의 사이드바에서 'MyStudyBible 소개'를 클릭해보세요.
 
+### 2.5.1 버전 심사중(곧 출시)
+
+곧 출시 예정입니다.
+
 
 ### 2.5 버전을 출시하며...
 
@@ -73,8 +77,8 @@
 [맥용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GRu5Mz3j)  
 [맥용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/drive/folders/1A6oZ2GKBe6nNGWUiDnpRsL-aX61EcJTc?usp=sharing)  
   
-[윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GxL7VRWT)  
-[윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/file/d/17ILzBR6OcXqMknYjl_g46wyDPq3upD2Q/view?usp=sharing)  
+[윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GhSHwN6e)  
+[윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/drive/folders/1B1HwnDvwVVj0a9d2tNcs3LnlOwqS0DCn?usp=sharing)  
   
   
 혹시 문의사항이나 버그를 발견하시면 앱스토어의 MyStudyBible 페이지 아래에 등록된 개발자 이메일로 연락주시면 감사드리겠습니다.  
