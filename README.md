@@ -80,8 +80,5 @@
 [윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GhSHwN6e)  
 [윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/drive/folders/1B1HwnDvwVVj0a9d2tNcs3LnlOwqS0DCn?usp=sharing)  
   
-  
-혹시 문의사항이나 버그를 발견하시면 앱스토어의 MyStudyBible 페이지 아래에 등록된 개발자 이메일로 연락주시면 감사드리겠습니다.  
-  
 
-
+문의사항: sungkwon쩜jung골뱅이outlook쩜컴
