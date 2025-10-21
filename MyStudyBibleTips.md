@@ -20,3 +20,20 @@
 제 개인적으로 목사님의 설교를 듣다가 중요한 내용을 노트할때 빠르게 인용구절을 넣기위해 만든 기능입니다.<br>
 <br>
 
+## 외부 앱에서 참조 성경 구절 복사해넣기
+노트 앱에서 다음과 같은 성경 참조가 있다고 해봅시다.<br>
+<img src="MyStudyBible_2_4_Images/Verse_copy1.png" width="400"><br>
+이 성경 참조를 모두 선택하면 위에 메뉴가 뜹니다.
+<br>
+<img src="MyStudyBible_2_4_Images/Verse_copy2.png" width="400"><br>
+이 메뉴의 우측 화살표를 눌러 메뉴를 확장하면 가장 아래에 '공유' 메뉴가 뜹니다.
+<br>
+<img src="MyStudyBible_2_4_Images/Verse_copy3.png" width="400"><br>
+'공유' 메뉴를 눌렀을때 뜨는 창의 가장 아래쪽을 보면 BibleVerseAction 항목이 있습니다.<br>
+이 항목을 선택하면 해당 참조 구절들의 내용이 클립보드에 복사가 됩니다.<br>
+<br>
+<img src="MyStudyBible_2_4_Images/Verse_copy4.png" width="400"><br>
+이제 노트앱에서 '붙여넣기'를 해주면 클리보드에 복사된 성경 구절들이 붙여넣어집니다.<br>
+역본명을 앞에 넣을것인지, 뒤에 넣을 것인지, 아니면 역본 명은 제외할것인지 등등의 다양한 형식들이 있을수 있는데<br>
+이런 형식들은 MyStudyBible의 '구절 범위 선택'창의 중간 부분에 있는 '형식 설정' 버튼을 눌러 뜨는 창에서 설정할수 있습니다.<br>
+<br>
