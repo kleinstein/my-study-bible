@@ -4,7 +4,7 @@
 <img src="MyStudyBible_2_4_Images/01_Simulator Screenshot.png" width="400"><br>
 위에서 보듯 출애굽기 2장 10절에 최초로 모세라는 인물이 등장합니다.<br>
 <br>
-<img src="MyStudyBible_2_4_Images/02_Simulator Screenshot.png" width="400"><br>
+<img src="MyStudyBible_2_4_Images/02_Simulator Screenshot.jpg" width="400"><br>
 출애굽기 2:10에서 더블탭을 해서 메뉴를 엽니다<br>
 <br>
 <img src="MyStudyBible_2_4_Images/03_Simulator Screenshot.png" width="400"><br>
