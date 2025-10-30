@@ -90,5 +90,12 @@ MyStudyBible앱은 현재 영어와 한글을 지원하고 있습니다.
 [윈도우용 인물관계 편집기 다운받기 1 (다운받기 위해 네이버 계정이 있어야 합니다.)](https://naver.me/GhSHwN6e)  
 [윈도우용 인물관계 편집기 다운받기 2 (구글드라이브)](https://drive.google.com/drive/folders/1B1HwnDvwVVj0a9d2tNcs3LnlOwqS0DCn?usp=sharing)  
   
+<br>
+혹시 리딩플랜 파일이 MyStudyBible 앱 설치때에 같이 복사가 되지 않은 경우 아래의 CSV 파일들을 다운받으셔서 불러오기하시면 됩니다.<br>
+[리딩 플랜 파일 다운받기 (연대순-신약추가)](reading_plan_files/리딩%20플랜%20연대순-신약추가.csv)<br>
+[리딩 플랜 파일 다운받기 (목차순)](reading_plan_files/리딩%20플랜%20목차순.csv)<br>
+[reading plan file download (biblical order)](reading_plan_files/reading_plan_files/reading%20plan%20In%20biblical%20order.csv)
+<br>
+
 
 문의사항: sungkwon쩜jung골뱅이outlook쩜컴
