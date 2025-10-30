@@ -32,7 +32,7 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 ### 2.6 에서 추가된 주요 기능들
 - 대조보기에서 최대 4개의 역본을 좌우로 나란히 놓고 대조해 볼 수 있습니다.  
 - 밑줄 긋기 기능에서 발생하던 여러 문제점들을 수정하였습니다.  
-<img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="height: 704px; width: auto;">
+<img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
 <br>
 
 ### 2.5.5 에서 추가된 주요 기능들
