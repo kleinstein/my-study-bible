@@ -94,9 +94,9 @@ MyStudyBible앱은 현재 영어와 한글을 지원하고 있습니다.
 혹시 리딩플랜 파일이 MyStudyBible 앱 설치때에 같이 복사가 되지 않은 경우 아래의 CSV 파일들을 다운받으셔서 불러오기하시면 됩니다.<br>
 <br>
 
-[리딩 플랜 파일 다운받기 (연대순-신약추가)](reading_plan_files/리딩%20플랜%20연대순-신약추가.csv)<br>
-[리딩 플랜 파일 다운받기 (목차순)](reading_plan_files/리딩%20플랜%20목차순.csv)<br>
-[reading plan file download (biblical order)](reading_plan_files/reading%20plan%20In%20biblical%20order.csv)
+[리딩 플랜 파일 다운받기 (연대순-신약추가)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/리딩%20플랜%20연대순-신약추가.csv)<br>
+[리딩 플랜 파일 다운받기 (목차순)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/리딩%20플랜%20목차순.csv)<br>
+[reading plan file download (biblical order)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/reading%20plan%20In%20biblical%20order.csv)
 <br>
 
 
