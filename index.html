@@ -5,10 +5,106 @@
   <title>내 문서 사이트</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .lang-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      gap: 10px;
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .lang-switcher button {
+      padding: 8px 16px;
+      border: 1px solid #ddd;
+      background: white;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    .lang-switcher button:hover {
+      background: #f0f0f0;
+    }
+    .lang-switcher button.active {
+      background: #42b983;
+      color: white;
+      border-color: #42b983;
+    }
+  </style>
 </head>
 <body>
+  <div class="lang-switcher">
+    <button id="lang-ko" onclick="switchLanguage('ko')">한국어</button>
+    <button id="lang-en" onclick="switchLanguage('en')">English</button>
+  </div>
   <div id="app"></div>
   <script>
+    // Language switcher function
+    function switchLanguage(lang) {
+      const currentPath = window.location.hash.replace('#/', '');
+
+      // Remove existing language prefix
+      let newPath = currentPath.replace(/^(ko|en)\//, '');
+
+      // Add new language prefix
+      if (lang === 'en') {
+        newPath = 'en/' + newPath;
+      } else {
+        newPath = 'ko/' + newPath;
+      }
+
+      // If path is empty, go to home
+      if (!newPath || newPath === 'ko/' || newPath === 'en/') {
+        newPath = lang === 'en' ? 'en/' : 'ko/';
+      }
+
+      // Navigate to new path
+      window.location.hash = '#/' + newPath;
+
+      // Update button states
+      updateLangButtons(lang);
+
+      // Save language preference
+      localStorage.setItem('preferredLanguage', lang);
+    }
+
+    function updateLangButtons(lang) {
+      document.getElementById('lang-ko').classList.toggle('active', lang === 'ko');
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+    }
+
+    // Detect current language from URL or localStorage
+    function detectLanguage() {
+      const hash = window.location.hash;
+      if (hash.includes('/en/')) {
+        return 'en';
+      } else if (hash.includes('/ko/')) {
+        return 'ko';
+      }
+      return localStorage.getItem('preferredLanguage') || 'ko';
+    }
+
+    // Initialize language on page load
+    window.addEventListener('load', function() {
+      const currentLang = detectLanguage();
+      updateLangButtons(currentLang);
+
+      // If no language in URL, redirect to saved preference
+      if (!window.location.hash || window.location.hash === '#/') {
+        switchLanguage(currentLang);
+      }
+    });
+
+    // Update button state when hash changes
+    window.addEventListener('hashchange', function() {
+      const currentLang = detectLanguage();
+      updateLangButtons(currentLang);
+    });
+
     window.$docsify = {
       name: 'MyStudyBible',
       repo: '',
@@ -17,6 +113,10 @@
       auto2top: true,
       sidebarDisplayLevel: 1,
       search: 'auto',
+      fallbackLanguages: ['ko'],
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
