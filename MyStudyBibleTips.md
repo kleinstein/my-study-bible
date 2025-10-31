@@ -104,7 +104,6 @@ csv 포맷 파일이란건 일반 텍스트 파일인데, 내부에는 콤마(,)
 ALTER TABLE Bible RENAME COLUMN Text TO Scripture;
 ```
 라는 명령을 입력하시고 화살표로 표시한 플레이 버튼을 눌러주시면 됩니다.<br>
-<br>
 그리고 난 다음 역시 화살표로 표시한 "Write Changes" 버튼을 꼭 반드시 누르셔야 합니다. 중요!!<br>
 <br>
 그런다음 [DB Browser for SQLite](https://sqlitebrowser.org/) 는 닫아주시고 해당 파일의 확장자를 sqlite 로 바꿔주시면 이제부터 MyStudyBible의 bible 폴더 아래로 복사만 해주시면 사용하실수 있게됩니다.<br>
