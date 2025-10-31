@@ -89,15 +89,15 @@ csv 포맷 파일이란건 일반 텍스트 파일인데, 내부에는 콤마(,)
 베들레햄 성경 데이터는 Sqlite 라는 포맷으로 되어 있습니다.<br>
 이런 포맷은 맥/윈도우용 무료 앱인 [DB Browser for SQLite](https://sqlitebrowser.org/) 라는 편집기로 열어서 편집할수 있습니다.<br>
 베들레햄 성경 데이터 파일을 위의 편집기로 열어서 보시면 아래와 같은 화면을 보실수 있습니다.
-<img src="MyStudyBible_2_4_Images/reading_plan_management1.png" width="1162"><br> 
+<img src="MyStudyBible_2_4_Images/rename_column1.png" width="1162"><br> 
 <br>
 화살표에 표시한 Browse Data 라는 탭을 클릭하면 아래와 같은 화면을 보시게 됩니다.
-<img src="MyStudyBible_2_4_Images/reading_plan_management2.png" width="1162"><br> 
+<img src="MyStudyBible_2_4_Images/rename_column2.png" width="1162"><br> 
 <br>
 위의 화면은 이미 'Scripture' 라는 열의 이름으로 잘 바뀌어진 상태이지만, 베들레햄 성경은 아마 'Text' 라는 열의 이름으로 되어 있을겁니다.<br>
 이 열의 이름(Text)을 'Text' 가 아닌 'Scripture' 라는 이름으로 바꿔주셔야 합니다.<br>
 이를 위해서는 아래의 그림과 같이 "Execute SQL" 이라는 탭으로 가셔서,<br>
-<img src="MyStudyBible_2_4_Images/reading_plan_management3.png" width="1162"><br> 
+<img src="MyStudyBible_2_4_Images/rename_column3.png" width="1162"><br> 
 <br>
 
 ```
