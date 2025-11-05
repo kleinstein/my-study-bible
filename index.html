@@ -24,9 +24,9 @@
       --search-border: #ccc;
     }
 
-    /* Dark Mode Variables */
+    /* Dark Mode Variables (auto-detect) */
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         --bg-color: #1a1a1a;
         --text-color: #e0e0e0;
         --sidebar-bg: #252525;
@@ -42,6 +42,24 @@
         --search-bg: #2a2a2a;
         --search-border: #3a3a3a;
       }
+    }
+
+    /* Dark Mode Variables (manual override) */
+    :root[data-theme="dark"] {
+      --bg-color: #1a1a1a;
+      --text-color: #e0e0e0;
+      --sidebar-bg: #252525;
+      --sidebar-text: #e0e0e0;
+      --sidebar-border: #3a3a3a;
+      --primary-color: #42b983;
+      --border-color: #3a3a3a;
+      --border-light: #2a2a2a;
+      --hover-bg: #2a2a2a;
+      --code-bg: #2a2a2a;
+      --shadow: rgba(0, 0, 0, 0.3);
+      --link-color: #5fd3a7;
+      --search-bg: #2a2a2a;
+      --search-border: #3a3a3a;
     }
 
     /* Override Docsify Theme for Dark Mode Support */
@@ -133,6 +151,32 @@
       color: white;
       border-color: var(--primary-color);
     }
+
+    /* Theme toggle button in sidebar */
+    .theme-toggle {
+      padding: 12px 16px;
+      margin: 20px 16px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-color);
+      color: var(--text-color);
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .theme-toggle:hover {
+      background: var(--hover-bg);
+      border-color: var(--primary-color);
+    }
+
+    .theme-toggle .icon {
+      font-size: 18px;
+    }
   </style>
 </head>
 <body>
@@ -142,6 +186,65 @@
   </div>
   <div id="app"></div>
   <script>
+    // Theme management
+    function getThemePreference() {
+      return localStorage.getItem('themePreference') || 'auto';
+    }
+
+    function setThemePreference(theme) {
+      localStorage.setItem('themePreference', theme);
+      applyTheme(theme);
+    }
+
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      if (theme === 'dark') {
+        root.setAttribute('data-theme', 'dark');
+      } else if (theme === 'light') {
+        root.setAttribute('data-theme', 'light');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+      updateThemeButton();
+    }
+
+    function toggleTheme() {
+      const currentTheme = getThemePreference();
+      let newTheme;
+
+      if (currentTheme === 'auto') {
+        newTheme = 'dark';
+      } else if (currentTheme === 'dark') {
+        newTheme = 'light';
+      } else {
+        newTheme = 'auto';
+      }
+
+      setThemePreference(newTheme);
+    }
+
+    function updateThemeButton() {
+      const button = document.getElementById('theme-toggle');
+      if (!button) return;
+
+      const theme = getThemePreference();
+      const icons = {
+        'auto': '🌓',
+        'light': '☀️',
+        'dark': '🌙'
+      };
+      const labels = {
+        'auto': 'Auto',
+        'light': 'Light',
+        'dark': 'Dark'
+      };
+
+      button.innerHTML = `<span class="icon">${icons[theme]}</span><span>${labels[theme]}</span>`;
+    }
+
+    // Initialize theme on page load
+    applyTheme(getThemePreference());
+
     // Language switcher function
     function switchLanguage(lang) {
       const currentPath = window.location.hash.replace('#/', '');
@@ -216,7 +319,23 @@
       alias: {
         '/ko/.*/_sidebar.md': '/ko/_sidebar.md',
         '/en/.*/_sidebar.md': '/en/_sidebar.md',
-      }
+      },
+      plugins: [
+        function(hook, vm) {
+          // Add theme toggle button to sidebar
+          hook.doneEach(function() {
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar && !document.getElementById('theme-toggle')) {
+              const themeButton = document.createElement('button');
+              themeButton.id = 'theme-toggle';
+              themeButton.className = 'theme-toggle';
+              themeButton.onclick = toggleTheme;
+              sidebar.appendChild(themeButton);
+              updateThemeButton();
+            }
+          });
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
