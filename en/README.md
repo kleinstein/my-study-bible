@@ -9,6 +9,9 @@ When iCloud sync is enabled, all data used is stored in iCloud Drive.
 This allows you to edit stored files on Mac and Windows as well.
 MyStudyBible currently supports English and Korean.
 
+### Version 2.6.3 has been registered. (13 November 2025)
+<br>
+
 ### Version 2.6.1 Released (October 30, 2025)
 [View Version 2.6.1 Key Features](/en/MyStudyBible?id=key-features-added-in-261)
 <br>
