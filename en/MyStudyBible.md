@@ -25,6 +25,13 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### 2Key Features Added in 2.6.3
+- Resize the annotation window on the iPad to occupy 95% of the full screen.  
+- Correcting errors within the Reading Plan CSV files.  
+
+### Key Features Added in 2.6.2
+- Resolved an issue where the Reading Plan CSV files that should have been copied during app installation were not being copied.  
+
 ### Key Features Added in 2.6.1
 - Fixed issue where image ratio was not preserved when images were added.
 - Fixed issue where images were saved locally even when iCloud sync was enabled.
