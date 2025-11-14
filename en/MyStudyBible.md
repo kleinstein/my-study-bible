@@ -25,7 +25,7 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
-### 2Key Features Added in 2.6.3
+### Key Features Added in 2.6.3
 - Resize the annotation window on the iPad to occupy 95% of the full screen.  
 - Correcting errors within the Reading Plan CSV files.  
 
