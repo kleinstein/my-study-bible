@@ -109,6 +109,27 @@
       color: var(--text-color);
     }
 
+    /* Headings in dark mode */
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) .markdown-section h1,
+      :root:not([data-theme="light"]) .markdown-section h2,
+      :root:not([data-theme="light"]) .markdown-section h3,
+      :root:not([data-theme="light"]) .markdown-section h4,
+      :root:not([data-theme="light"]) .markdown-section h5,
+      :root:not([data-theme="light"]) .markdown-section h6 {
+        color: #A7C0DA;
+      }
+    }
+
+    :root[data-theme="dark"] .markdown-section h1,
+    :root[data-theme="dark"] .markdown-section h2,
+    :root[data-theme="dark"] .markdown-section h3,
+    :root[data-theme="dark"] .markdown-section h4,
+    :root[data-theme="dark"] .markdown-section h5,
+    :root[data-theme="dark"] .markdown-section h6 {
+      color: #A7C0DA;
+    }
+
     /* 모바일: 페이지 상단에 static 배치 */
     .lang-switcher {
       position: static;
