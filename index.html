@@ -251,6 +251,9 @@
         root.removeAttribute('data-theme');
       }
       updateThemeButton();
+
+      // Apply heading colors immediately after theme change
+      setTimeout(applyHeadingColors, 0);
     }
 
     function toggleTheme() {
@@ -285,6 +288,21 @@
       };
 
       button.innerHTML = `<span class="icon">${icons[theme]}</span><span>${labels[theme]}</span>`;
+    }
+
+    function applyHeadingColors() {
+      const root = document.documentElement;
+      const isDarkMode = root.getAttribute('data-theme') === 'dark' ||
+                         (root.getAttribute('data-theme') !== 'light' &&
+                          window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+      if (isDarkMode) {
+        // Find all headings in the content area
+        const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        headings.forEach(heading => {
+          heading.style.color = '#A7C0DA';
+        });
+      }
     }
 
     // Initialize theme on page load
@@ -378,6 +396,14 @@
               sidebar.appendChild(themeButton);
               updateThemeButton();
             }
+
+            // Apply heading colors for dark mode
+            applyHeadingColors();
+          });
+
+          // Also apply on theme change
+          hook.ready(function() {
+            applyHeadingColors();
           });
         }
       ]
