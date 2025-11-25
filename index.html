@@ -296,13 +296,19 @@
                          (root.getAttribute('data-theme') !== 'light' &&
                           window.matchMedia('(prefers-color-scheme: dark)').matches);
 
-      if (isDarkMode) {
-        // Find all headings in the content area
-        const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-        headings.forEach(heading => {
-          heading.style.color = '#A7C0DA';
-        });
-      }
+      console.log('Applying heading colors, isDarkMode:', isDarkMode);
+
+      // Find all headings in the document
+      const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+      console.log('Found', headings.length, 'headings');
+
+      headings.forEach(heading => {
+        if (isDarkMode) {
+          heading.style.setProperty('color', '#A7C0DA', 'important');
+        } else {
+          heading.style.removeProperty('color');
+        }
+      });
     }
 
     // Initialize theme on page load
@@ -397,13 +403,18 @@
               updateThemeButton();
             }
 
-            // Apply heading colors for dark mode
-            applyHeadingColors();
+            // Apply heading colors after DOM is fully rendered
+            setTimeout(applyHeadingColors, 100);
           });
 
-          // Also apply on theme change
+          // Also apply on initial load
           hook.ready(function() {
-            applyHeadingColors();
+            setTimeout(applyHeadingColors, 100);
+          });
+
+          // Apply after all plugins are loaded
+          hook.mounted(function() {
+            setTimeout(applyHeadingColors, 100);
           });
         }
       ]
