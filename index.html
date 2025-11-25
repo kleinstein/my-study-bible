@@ -298,17 +298,28 @@
 
       console.log('Applying heading colors, isDarkMode:', isDarkMode);
 
-      // Find all headings in the document
-      const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-      console.log('Found', headings.length, 'headings');
+      // Remove existing dynamic style if present
+      const existingStyle = document.getElementById('dynamic-heading-style');
+      if (existingStyle) {
+        existingStyle.remove();
+      }
 
-      headings.forEach(heading => {
-        if (isDarkMode) {
-          heading.style.setProperty('color', '#A7C0DA', 'important');
-        } else {
-          heading.style.removeProperty('color');
-        }
-      });
+      if (isDarkMode) {
+        // Add a style tag with highest priority
+        const style = document.createElement('style');
+        style.id = 'dynamic-heading-style';
+        style.textContent = `
+          body h1, body h2, body h3, body h4, body h5, body h6,
+          .markdown-section h1, .markdown-section h2, .markdown-section h3,
+          .markdown-section h4, .markdown-section h5, .markdown-section h6,
+          .content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
+          #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+            color: #A7C0DA !important;
+          }
+        `;
+        document.head.appendChild(style);
+        console.log('Dynamic style added for dark mode');
+      }
     }
 
     // Initialize theme on page load
