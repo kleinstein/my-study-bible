@@ -300,19 +300,30 @@
 
       if (isDarkMode) {
         // Find all text elements
-        const elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, div, span, li, a, td, th, label, strong, em');
+        const elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, div, span, li, a, td, th, label, strong, em, b, i, code');
         let changedCount = 0;
 
         elements.forEach(element => {
           const computedColor = window.getComputedStyle(element).color;
-          // Check if color is rgb(52, 73, 94) which is #34495E
-          if (computedColor === 'rgb(52, 73, 94)') {
-            element.style.setProperty('color', '#A7C0DA', 'important');
-            changedCount++;
+
+          // Parse RGB values
+          const rgbMatch = computedColor.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+          if (rgbMatch) {
+            const r = parseInt(rgbMatch[1]);
+            const g = parseInt(rgbMatch[2]);
+            const b = parseInt(rgbMatch[3]);
+
+            // Check if the color is dark (all RGB values below 120)
+            // This will catch #34495E and similar dark colors
+            if (r < 120 && g < 120 && b < 120) {
+              element.style.setProperty('color', '#A7C0DA', 'important');
+              changedCount++;
+              console.log(`Changed element with color ${computedColor}:`, element.textContent.substring(0, 50));
+            }
           }
         });
 
-        console.log(`Changed ${changedCount} elements from #34495E to #A7C0DA`);
+        console.log(`Changed ${changedCount} dark colored elements to #A7C0DA`);
       } else {
         // Remove custom colors in light mode
         const elements = document.querySelectorAll('[style*="color"]');
