@@ -298,34 +298,29 @@
 
       console.log('Applying dark mode colors, isDarkMode:', isDarkMode);
 
-      // Remove existing dynamic style if present
-      const existingStyle = document.getElementById('dynamic-heading-style');
-      if (existingStyle) {
-        existingStyle.remove();
-      }
-
       if (isDarkMode) {
-        // Add a style tag to replace all #34495E colors with #A7C0DA
-        const style = document.createElement('style');
-        style.id = 'dynamic-heading-style';
-        style.textContent = `
-          /* Override all text elements that would be #34495E */
-          body h1, body h2, body h3, body h4, body h5, body h6,
-          .markdown-section h1, .markdown-section h2, .markdown-section h3,
-          .markdown-section h4, .markdown-section h5, .markdown-section h6,
-          .content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
-          #main h1, #main h2, #main h3, #main h4, #main h5, #main h6,
-          .markdown-section p, .markdown-section div, .markdown-section span,
-          .markdown-section li, .markdown-section td, .markdown-section th,
-          .content p, .content div, .content span, .content li,
-          .sidebar ul li a, .sidebar-nav li, .sidebar-nav a,
-          article h1, article h2, article h3, article h4, article h5, article h6,
-          article p, article div, article span, article li {
-            color: #A7C0DA !important;
+        // Find all text elements
+        const elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, div, span, li, a, td, th, label, strong, em');
+        let changedCount = 0;
+
+        elements.forEach(element => {
+          const computedColor = window.getComputedStyle(element).color;
+          // Check if color is rgb(52, 73, 94) which is #34495E
+          if (computedColor === 'rgb(52, 73, 94)') {
+            element.style.setProperty('color', '#A7C0DA', 'important');
+            changedCount++;
           }
-        `;
-        document.head.appendChild(style);
-        console.log('Dynamic style added - all #34495E text changed to #A7C0DA');
+        });
+
+        console.log(`Changed ${changedCount} elements from #34495E to #A7C0DA`);
+      } else {
+        // Remove custom colors in light mode
+        const elements = document.querySelectorAll('[style*="color"]');
+        elements.forEach(element => {
+          if (element.style.color === 'rgb(167, 192, 218)') {
+            element.style.removeProperty('color');
+          }
+        });
       }
     }
 
