@@ -109,24 +109,48 @@
       color: var(--text-color);
     }
 
-    /* Headings in dark mode */
+    /* Headings in dark mode - comprehensive selectors */
     @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) h1,
+      :root:not([data-theme="light"]) h2,
+      :root:not([data-theme="light"]) h3,
+      :root:not([data-theme="light"]) h4,
+      :root:not([data-theme="light"]) h5,
+      :root:not([data-theme="light"]) h6,
       :root:not([data-theme="light"]) .markdown-section h1,
       :root:not([data-theme="light"]) .markdown-section h2,
       :root:not([data-theme="light"]) .markdown-section h3,
       :root:not([data-theme="light"]) .markdown-section h4,
       :root:not([data-theme="light"]) .markdown-section h5,
-      :root:not([data-theme="light"]) .markdown-section h6 {
+      :root:not([data-theme="light"]) .markdown-section h6,
+      :root:not([data-theme="light"]) .content h1,
+      :root:not([data-theme="light"]) .content h2,
+      :root:not([data-theme="light"]) .content h3,
+      :root:not([data-theme="light"]) .content h4,
+      :root:not([data-theme="light"]) .content h5,
+      :root:not([data-theme="light"]) .content h6 {
         color: #A7C0DA !important;
       }
     }
 
+    :root[data-theme="dark"] h1,
+    :root[data-theme="dark"] h2,
+    :root[data-theme="dark"] h3,
+    :root[data-theme="dark"] h4,
+    :root[data-theme="dark"] h5,
+    :root[data-theme="dark"] h6,
     :root[data-theme="dark"] .markdown-section h1,
     :root[data-theme="dark"] .markdown-section h2,
     :root[data-theme="dark"] .markdown-section h3,
     :root[data-theme="dark"] .markdown-section h4,
     :root[data-theme="dark"] .markdown-section h5,
-    :root[data-theme="dark"] .markdown-section h6 {
+    :root[data-theme="dark"] .markdown-section h6,
+    :root[data-theme="dark"] .content h1,
+    :root[data-theme="dark"] .content h2,
+    :root[data-theme="dark"] .content h3,
+    :root[data-theme="dark"] .content h4,
+    :root[data-theme="dark"] .content h5,
+    :root[data-theme="dark"] .content h6 {
       color: #A7C0DA !important;
     }
 
