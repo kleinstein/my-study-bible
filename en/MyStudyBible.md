@@ -25,6 +25,11 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Key Features Added in 2.7.1
+- A Bible reading feature powered by an ultra-lightweight AI-based TTS engine  
+- A timer function during voice narration  
+- Support for audio playback in the background (even when the screen is off)  
+
 ### Key Features Added in 2.6.3
 - Resize the annotation window on the iPad to occupy 95% of the full screen.  
 - Correcting errors within the Reading Plan CSV files.  
