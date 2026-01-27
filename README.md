@@ -1,25 +1,36 @@
-# Language / 언어 선택
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Please select your language:
+## Getting Started
 
-언어를 선택해주세요:
+First, run the development server:
 
-<br>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## [한국어 (Korean)](/ko/)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## [English](/en/)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<br>
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-# MyStudyBible
+To learn more about Next.js, take a look at the following resources:
 
-<img src="MyStudyBible_2_4_Images/bibleAppIcon.png" width="200">
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<br>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-MyStudyBible is a free Bible app for iPhone and iPad available on App Stores worldwide.
+## Deploy on Vercel
 
-MyStudyBible앱은 전세계의 앱스토어에서 무료로 제공되는 아이폰, 아이패드용 성경앱입니다.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
