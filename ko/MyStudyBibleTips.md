@@ -1,19 +1,19 @@
 
 ## 주석보기 창에서의 번역보기 버튼
-<img src="MyStudyBible_2_4_Images/commentar_translation_button.png" width="400">
+<img src="../MyStudyBible_2_4_Images/commentar_translation_button.png" width="400">
 
 외국어로 된 주석의 내용일때, 위에서 표시된 버튼을 누르면, 아이폰의 '번역' 앱에서 설정된 번역기를 통해 해당 내용을 한글(번역 앱에서 설정된 목표언어)로 보실수 있습니다.
   
   
 ## 노트 입력 창에서 빠르게 인용구절 입력하기
-<img src="MyStudyBible_2_4_Images/note_tip1.png" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/note_tip1.png" width="400"><br>
 노트 입력 창에서 인용구절을 입력할때 < 책이름 장:시작절-끝절 이렇게 입력하고<br>
 <br>  
-<img src="MyStudyBible_2_4_Images/note_tip2.png" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/note_tip2.png" width="400"><br>
 마지막으로 > 기호로 닫으면, 곧바로 < > 기호 안의 해당 구절이 클립보드에 복사가 됩니다.<br>
 그리고 동시에 내가 입력한 < 책이름 장:절 > 부분이 자동으로 선택이 됩니다.<br>
 <br>
-<img src="MyStudyBible_2_4_Images/note_tip3.png" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/note_tip3.png" width="400"><br>
 그래서 간단히 백스페이스로 내가 입력했던 < 책이름 장:절 > 부분을 지우고 '붙여넣기'를 누르면<br>
 인용구절이 붙여넣어 집니다.<br>
 <br>
@@ -22,17 +22,17 @@
 
 ## 외부 앱에서 참조 성경 구절 복사해넣기
 노트 앱에서 다음과 같은 성경 참조가 있다고 해봅시다.<br>
-<img src="MyStudyBible_2_4_Images/Verse_copy1.jpg" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/Verse_copy1.jpg" width="400"><br>
 이 성경 참조를 모두 선택하면 위에 메뉴가 뜹니다.
 <br>
-<img src="MyStudyBible_2_4_Images/Verse_copy2.jpg" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/Verse_copy2.jpg" width="400"><br>
 이 메뉴의 우측 화살표를 눌러 메뉴를 확장하면 가장 아래에 '공유' 메뉴가 뜹니다.
 <br>
-<img src="MyStudyBible_2_4_Images/Verse_copy3.jpg" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/Verse_copy3.jpg" width="400"><br>
 '공유' 메뉴를 눌렀을때 뜨는 창의 가장 아래쪽을 보면 BibleVerseAction 항목이 있습니다.<br>
 이 항목을 선택하면 해당 참조 구절들의 내용이 클립보드에 복사가 됩니다.<br>
 <br>
-<img src="MyStudyBible_2_4_Images/Verse_copy4.jpg" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/Verse_copy4.jpg" width="400"><br>
 이제 노트앱에서 '붙여넣기'를 해주면 클립보드에 복사된 성경 구절들이 붙여넣어집니다.<br>
 역본명을 앞에 넣을것인지, 뒤에 넣을 것인지, 아니면 역본 명은 제외할것인지 등등의 다양한 형식들이 있을수 있는데<br>
 이런 형식들은 MyStudyBible의 '구절 범위 선택'창의 중간 부분에 있는 '형식 설정' 버튼을 눌러 뜨는 창에서 설정할수 있습니다.<br>
@@ -50,7 +50,7 @@ MyStudyBible 앱은 처음에 설치하면 성경의 순서대로 1년에 1독�
 ##### 리딩 플랜 CSV 파일 작성법
 csv 포맷 파일이란건 일반 텍스트 파일인데, 내부에는 콤마(,)를 이용해서 내용을 분리해서 저장한 파일을 말합니다.<br> 
 위에서 언급한 두 개의 리딩플랜 파일중 아무 파일이나 일반 텍스트뷰어로 열어보면 그 내용이 아래와 같이 나오는걸 확인할수 있습니다.<br>
-<img src="MyStudyBible_2_4_Images/reading_plan_csv1.png" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/reading_plan_csv1.png" width="400"><br>
 여기서 예를 들어 가장 첫 줄에 적힌 1,1,창 1-3,마 1 가 무슨뜻이냐면<br>
 1월 1일에는 창세기 1-3장과 마태복음 1장을 읽겠다는 의미입니다.<br>
 <br>
@@ -65,10 +65,10 @@ csv 포맷 파일이란건 일반 텍스트 파일인데, 내부에는 콤마(,)
 이렇게 작성된 csv 파일이 있으면 이제 이걸 MyStudyBible 앱의 설정창에서 불러올수 있습니다.<br>
 설정창의 '성경 읽기 계획' 섹션에서 '성경 읽기 계획 관리하기'창을 열어줍니다.<br>
 여기에는 현재 등록되어 있는 모든 리딩 플랜들이 나옵니다.<br>
-<img src="MyStudyBible_2_4_Images/reading_plan_management1.png" width="400"><br> 
+<img src="../MyStudyBible_2_4_Images/reading_plan_management1.png" width="400"><br> 
 가장 아래의 '새 리딩 플랜 가져오기' 버튼을 눌러줍니다.<br>
 <br>
-<img src="MyStudyBible_2_4_Images/reading_plan_management2.png" width="400"><br>
+<img src="../MyStudyBible_2_4_Images/reading_plan_management2.png" width="400"><br>
 그리고 여기서 화면 하단의 'CSV 파일 선택' 버튼을 누르면 파일 선택 창이 뜨는데, 여기서 앞서 작성한 CSV 파일이나 혹은 MyStudyBible에서 기본으로 제공하는 CSV 파일을 선택해 줍니다.<br>
 그러면 자동으로 CSV 파일을 불러와서 '성경 읽기 계획 관리하기'창에 등록해줍니다.<br>
 '성경 읽기 계획 관리하기'창에서 이제 원하는 리딩 플랜을 '기본으로' 선택해 줍니다.<br>
@@ -90,15 +90,15 @@ csv 포맷 파일이란건 일반 텍스트 파일인데, 내부에는 콤마(,)
 베들레햄 성경 데이터는 Sqlite 라는 포맷으로 되어 있습니다.<br>
 이런 포맷은 맥/윈도우용 무료 앱인 [DB Browser for SQLite](https://sqlitebrowser.org/) 라는 편집기로 열어서 편집할수 있습니다.<br>
 베들레햄 성경 데이터 파일을 위의 편집기로 열어서 보시면 아래와 같은 화면을 보실수 있습니다.
-<img src="MyStudyBible_2_4_Images/rename_column1.png" width="1162"><br> 
+<img src="../MyStudyBible_2_4_Images/rename_column1.png" width="1162"><br> 
 <br>
 화살표에 표시한 Browse Data 라는 탭을 클릭하면 아래와 같은 화면을 보시게 됩니다.
-<img src="MyStudyBible_2_4_Images/rename_column2.png" width="1162"><br> 
+<img src="../MyStudyBible_2_4_Images/rename_column2.png" width="1162"><br> 
 <br>
 위의 화면은 이미 'Scripture' 라는 열의 이름으로 잘 바뀌어진 상태이지만, 베들레햄 성경은 아마 'Text' 라는 열의 이름으로 되어 있을겁니다.<br>
 이 열의 이름(Text)을 'Text' 가 아닌 'Scripture' 라는 이름으로 바꿔주셔야 합니다.<br>
 이를 위해서는 아래의 그림과 같이 "Execute SQL" 이라는 탭으로 가셔서,<br>
-<img src="MyStudyBible_2_4_Images/rename_column3.png" width="1162"><br> 
+<img src="../MyStudyBible_2_4_Images/rename_column3.png" width="1162"><br> 
 <br>
 
 ```
