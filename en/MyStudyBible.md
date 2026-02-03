@@ -25,6 +25,12 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Key Features Added in 2.8.0
+- The search window is now larger on iPad.
+- You can select multiple Bible versions to search through in the search settings, and the search results will show verse content from all selected versions.
+- Strong's code number search has been added. You can search with H123 or G123 (H for Hebrew, G for Greek), or just search with numbers only to search both Hebrew and Greek. Note that the Strong's dictionary file must be in the dict folder, and a Bible version file containing Strong's codes must be in the bible folder for this to work properly.
+- In the note input window, when you enter a book name and chapter:verse inside square brackets, the verse is automatically copied to the clipboard. Previously, a space was required between the book name and chapter:verse, but now it works without the space as well.
+
 ### Key Features Added in 2.7.3
 - You can now adjust the footnote superscript size directly in the settings.
 - RF and Rf tags surrounding note sections in the Bible text were previously not processed. Now they are displayed as superscripts, and tapping the superscript opens a new window showing the note content.

@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "Bash(mkdir:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n2.7.3 출시소식\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(ls:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n루트 중복파일 삭제 및 이미지 경로 수정, 2.7.3 버전정보 추가\n\n- 루트 레벨 중복 md 파일들 삭제 \\(MyStudyBible.md, MyStudyBibleTips.md, PersonRelationship*.md\\)\n- ko/, en/ 폴더의 이미지 경로를 상대 경로\\(../\\)로 수정\n- ko/, en/ 폴더에 2.7.3 버전 출시 정보 추가\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "WebFetch(domain:kleinstein.github.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api:*)",
+      "Bash(git fetch:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
