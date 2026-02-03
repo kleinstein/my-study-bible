@@ -13,7 +13,9 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(gh api:*)",
       "Bash(git fetch:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(python -m http.server:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []

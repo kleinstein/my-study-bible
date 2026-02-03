@@ -28,13 +28,13 @@ I will briefly write here what files should be placed in various folders under t
 ### Key Features Added in 2.8.0
 - The search window is now larger on iPad.
 - You can select multiple Bible versions to search through in the search settings, and the search results will show verse content from all selected versions.
-<img src="MyStudyBible_2_4_Images/search_result_selected_bible.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
-<img src="MyStudyBible_2_4_Images/search_option.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/search_result_selected_bible.PNG" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/search_option.PNG" style="height: 600px; width: auto;">
 <br>
 
 - Strong's code number search has been added. You can search with H123 or G123 (H for Hebrew, G for Greek), or just search with numbers only to search both Hebrew and Greek. Note that the Strong's dictionary file must be in the dict folder, and a Bible version file containing Strong's codes must be in the bible folder for this to work properly.
-<img src="MyStudyBible_2_4_Images/search_result_strong_nr.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
-<img src="MyStudyBible_2_4_Images/search_result_strong_dict.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/search_result_strong_nr.PNG" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/search_result_strong_dict.PNG" style="height: 600px; width: auto;">
 <br>
 
 - In the note input window, when you enter a book name and chapter:verse inside square brackets, the verse is automatically copied to the clipboard. Previously, a space was required between the book name and chapter:verse, but now it works without the space as well.
