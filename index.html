@@ -404,6 +404,9 @@
     window.$docsify = {
       name: 'MyStudyBible',
       repo: '',
+      requestHeaders: {
+        'cache-control': 'no-cache'
+      },
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
