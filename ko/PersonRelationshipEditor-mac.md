@@ -36,7 +36,7 @@
 > 시간이 되면 좀 더 편하게 입력할수 있도록 수정해서 이곳에 다시 올리겠습니다.  
   
 메인화면 스크린샷:
-<img src="../PersonRelationshipEditor_1_0_Images/main.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/main.jpg" width="800">
 
 
 ### 왼쪽 탭들
@@ -44,33 +44,33 @@
 - 현재 person_relationships.sqlite 파일에 저장되어 있는 모든 인물들이 리스트로 표시됩니다.
 - 인물의 이름 위에서 마우스 우클릭을 하면 '성경에서 검색', '사전에서 검색'을 곧바로 실행할수 있습니다.
 - **인물 목록에서 선택한 인물이** 이 편집기에서는 **항상 기준 인물** 역할을 합니다. 
-<img src="../PersonRelationshipEditor_1_0_Images/left-person-mouse-right-click.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/left-person-mouse-right-click.jpg" width="800">
 
 ##### 성경 검색
 - 성경에서 입력한 단어로 검색을 합니다.
 - AND 버튼을 누르면 OR 버튼으로 바뀌고 이를 통해, 모든 단어가 들어간 구절(AND)이나 한 단어라도 들어간 구절(OR)을 검색할수 있습니다.
 - 검색 결과에서 성경의 '책 장:절' 표시위에서 더블클릭을 하면 성경탭이 자동으로 열리면서 해당 구절이 표시됩니다.
-<img src="../PersonRelationshipEditor_1_0_Images/left-bible-search.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/left-bible-search.jpg" width="800">
 
 ##### 성경
 - 메인 화면 아래에 표시된 성경의 내용이 표시됩니다.
 - 성경의 장 전체가 표시됩니다.
 - 원하는 장으로 가기위해 책이름과 장을 넣으면 해당 장으로 이동하실수 있습니다.
 - 아래의 스크린샷은 성경 검색 결과에서 더블클릭을 통해 자동으로 열린 성경 구절 부분입니다.
-<img src="../PersonRelationshipEditor_1_0_Images/left-bible.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/left-bible.jpg" width="800">
 
 ##### 사전
 - 메인 화면 아래에 표시된 사전의 내용이 표시됩니다.
 - 현재 '에스라 성경 사전'이 인물관계 편집기에 기본 내장되어 있습니다.
 - MDict 용 사전(확장자 .mdx)을 지원합니다.
-<img src="../PersonRelationshipEditor_1_0_Images/left-dict.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/left-dict.jpg" width="800">
 
 ### 오른쪽 탭들
 ##### 인물 정보
 - **왼쪽의 인물 목록 탭에서 선택된 인물에 대한 정보가 나오는 창입니다.**
 - 이곳에서 내용을 수정하면 자동으로 즉시 저장됩니다.
 - 이곳에서 인물을 삭제하면 이 인물과 관계된 모든 관계들도 삭제됩니다.
-<img src="../PersonRelationshipEditor_1_0_Images/main.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/main.jpg" width="800">
 
 ##### 관계 관리
 - **왼쪽의 인물 목록 탭에서 선택된 인물과 관계가 있는 모든 관계가 나오는 창입니다.**
@@ -78,16 +78,16 @@
 - **기준 인물** 과 **대상 인물** 이 있어서 누가 기준인가에 따라, 예를 들면 {기준인물}의 '아들'이 {대상인물}의 형식으로 표시됩니다.
 - 현재 선택된 기준 인물은 푸른색 바탕으로 표시되어 알아보기 쉽게 했습니다.
 - 두 인물간의 관계를 알게해주는 관련구절을 입력하면 나중에 인물 관계를 확인하기 좋습니다. 
-<img src="../PersonRelationshipEditor_1_0_Images/right-relation.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-relation.jpg" width="800">
 
 ##### 등장하는 구절
 - **왼쪽의 인물 목록 탭에서 선택된 인물**이 등장하는 모든 구절들이 표시됩니다.
-<img src="../PersonRelationshipEditor_1_0_Images/right-verse.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-verse.jpg" width="800">
 
 ##### 새 인물
 - 새로운 인물을 저장하고 싶을때 사용됩니다.
-<img src="../PersonRelationshipEditor_1_0_Images/right-new-person1.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-new-person1.jpg" width="800">
 
 - 새로운 인물에 대한 정보들을 입력하고 '새 인물로 저장' 버튼을 눌렀을때, 자동으로 이미 저장되어 있는 인물과 동명이인인지 체크하는 창이 뜨게됩니다. 이 창에서 새 인물로 저장할지, 아니면 기존의 저장된 인물과 동일인물인지 확인한 후 선택합니다.
-<img src="../PersonRelationshipEditor_1_0_Images/right-new-person-check.jpg" width="800">
+<img src="PersonRelationshipEditor_1_0_Images/right-new-person-check.jpg" width="800">
 

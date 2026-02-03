@@ -48,7 +48,7 @@ I will briefly write here what files should be placed in various folders under t
 ### Key Features Added in 2.6
 - In comparison view, you can compare up to 4 versions side by side.
 - Fixed various issues that occurred in the underline feature.
-<img src="../MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
 <br>
 
 ### Key Features Added in 2.5.5
@@ -75,8 +75,8 @@ Version 2.5.1 is mostly bug fixes with the following additional features:
 - Known issue: In Bibles with Strong's numbers, underlining may not display Strong's numbers properly.
 
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/strong-view.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/strong-dict.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/strong-view.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/strong-dict.png" style="height: 600px; width: auto;">
 </div>
 
 ##### Support for some Original Text Analysis Bibles.
@@ -84,11 +84,11 @@ Version 2.5.1 is mostly bug fixes with the following additional features:
 - Known issue: In Original Text Analysis Bibles, most of the menu functions may not work properly. Please use it only as a viewer.
 
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view1.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view2.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view3.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view4.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view5.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view1.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view2.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view3.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view4.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view5.png" style="height: 600px; width: auto;">
 </div>
 
 ##### You can enter and manage person relationships.
@@ -97,11 +97,11 @@ Version 2.5.1 is mostly bug fixes with the following additional features:
 - Person relationships must be filled in directly by the user. It is not easy to work on the small screen of an iPhone, so we plan to distribute a Person Relationship Editor for Mac and Windows through this website.
 
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
 </div>
 
 ##### We plan to distribute a Person Relationship Editor for Mac and Windows.
@@ -138,7 +138,7 @@ Of course, synchronization speed may be slow depending on the region, so you may
     - iCloud data remains as is
     - The app will use local data
 
-<img src="../MyStudyBible_2_4_Images/icloud-sync.png" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/icloud-sync.png" style="height: 600px; width: auto;">
 
 ### Fixes in 2.3.1
 

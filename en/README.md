@@ -1,6 +1,6 @@
 # MyStudyBible is an iPhone and iPad exclusive app.
 
-<img src="../MyStudyBible_2_4_Images/bibleAppIcon.png" width="200">
+<img src="MyStudyBible_2_4_Images/bibleAppIcon.png" width="200">
 
 <br>
 

@@ -48,7 +48,7 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 ### 2.6 에서 추가된 주요 기능들
 - 대조보기에서 최대 4개의 역본을 좌우로 나란히 놓고 대조해 볼 수 있습니다.  
 - 밑줄 긋기 기능에서 발생하던 여러 문제점들을 수정하였습니다.  
-<img src="../MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
 <br>
 
 ### 2.5.5 에서 추가된 주요 기능들
@@ -75,8 +75,8 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 - 알려진 문제: 스트롱번호가 있는 성경에서는 밑줄긋기를 했을때 스트롱번호 표시가 잘 되지 않을수 있습니다.
 
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/strong-view.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/strong-dict.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/strong-view.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/strong-dict.png" style="height: 600px; width: auto;">
 </div>
 
 ##### 일부 원전분해 성경을 지원합니다.
@@ -84,11 +84,11 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 - 알려진 문제: 원전분해 성경에서는 메뉴의 기능들 대부분이 제대로 작동하지 않을수 있습니다. 뷰어로만 사용해주세요.
 
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view1.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view2.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view3.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view4.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/heb-greek-view5.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view1.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view2.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view3.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view4.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/heb-greek-view5.png" style="height: 600px; width: auto;">
 </div>
 
 ##### 인물 관계를 입력하고 관리할 수 있습니다.
@@ -96,11 +96,11 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 - 인물 관계가 저장된 구절뒤에는 인물 아이콘이 표시되고, 인물 아이콘을 탭하면 인물관계 창이 표시됩니다. 
 - 인물 관계는 사용자가 직접 채워넣어야 합니다. 아이폰의 작은 화면에서 작업하기 쉽지 않아서 맥과 윈도우용 인물관계 편집기를 이곳 홈페이지를 통해 같이 배포할 예정입니다.
 <div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="../MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
-  <img src="../MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
+  <img src="MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
 </div>
 
 ##### 맥과 윈도우용 인물관계 편집기를 같이 배포할 예정입니다.
@@ -137,7 +137,7 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
     - iCloud 데이터는 그대로 유지됩니다
     - 앱은 로컬 데이터를 사용하게 됩니다
 
-<img src="../MyStudyBible_2_4_Images/icloud-sync.png" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/icloud-sync.png" style="height: 600px; width: auto;">
 
 ### 2.3.1 에서 수정된 것들
 
