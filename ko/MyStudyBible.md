@@ -26,10 +26,18 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 ## 버전 히스토리
 
 ### 2.8.0 에서 추가된 주요 기능들
-- 검색창의 크기가 아이패드일때 좀더 크게 나옵니다.
-- 검색창에서 설정을 통해 검색할 역본을 여러개 선택할 수 있고, 검색결과에도 모든 역본의 구절 내용이 같이 나오게 됩니다.
-- 스트롱코드 번호 검색이 추가되었습니다. H123 혹은 G123 으로 H(히브리어)나 G(그리스어)를 붙여 검색할 수도 있고, 그냥 숫자만으로 검색할때에는 히브리어, 그리스어 모두에서 검색하게 됩니다. 다만 스트롱코드 사전 파일이 dict 폴더에 있어야 하고, 스트롱코드를 포함한 성경역본 파일이 bible 폴더에 있어야 제대로 작동합니다.
-- 노트 입력창에서 각괄호 사이에 책이름 장:절 을 입력했을때 자동으로 해당 구절이 복사되어 클립보드에 입력되는 기능이 있는데, 이때 책이름과 장:절 사이에 한 칸을 띄워야만 하던 것을 수정해서, 한 칸을 띄우지 않아도 작동하도록 하였습니다.
+- 검색창의 크기가 아이패드일때 좀더 크게 나옵니다.  
+- 검색창에서 설정을 통해 검색할 역본을 여러개 선택할 수 있고, 검색결과에도 모든 선택한 역본의 구절 내용이 같이 나오게 됩니다.  
+<img src="MyStudyBible_2_4_Images/search_result_selected_bible.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/search_option.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<br>
+
+- 스트롱코드 번호 검색이 추가되었습니다. H123 혹은 G123 으로 H(히브리어)나 G(그리스어)를 붙여 검색할 수도 있고, 그냥 숫자만으로 검색할때에는 히브리어, 그리스어 모두에서 검색하게 됩니다. 다만 스트롱코드 사전 파일이 dict 폴더에 있어야 하고, 스트롱코드를 포함한 성경역본 파일이 bible 폴더에 있어야 제대로 작동합니다.  
+<img src="MyStudyBible_2_4_Images/search_result_strong_nr.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<img src="MyStudyBible_2_4_Images/search_result_strong_dict.PNG" style="max-height: 1200px; height: auto; width: auto; max-width: 100%;">
+<br>
+
+- 노트 입력창에서 각괄호 사이에 책이름 장:절 을 입력했을때 자동으로 해당 구절이 복사되어 클립보드에 입력되는 기능이 있는데, 이때 책이름과 장:절 사이에 한 칸을 띄워야만 하던 것을 수정해서, 한 칸을 띄우지 않아도 작동하도록 하였습니다.  
 
 ### 2.7.3 에서 추가된 주요 기능들
 - 각주 윗첨자 크기를 설정창에서 사용자가 직접 조절할수 있도록 하였습니다.
