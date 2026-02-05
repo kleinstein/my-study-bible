@@ -25,6 +25,39 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Key Features Added in 2.8.2
+- Implemented multi-buffering in the Bible reading feature for smoother playback. However, on slower devices, you may need to wait briefly when starting to read.
+- You can now set the TTS to stop reading at a specific verse.
+<img src="MyStudyBible_2_4_Images/TTS_option_end_time.PNG" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/TTS_option_end_verse.PNG" style="height: 600px; width: auto;">
+<br>
+- Improved support for a wider variety of Bible text files. The app now works if the Bible text column in the Bible table is named 'text', 'btext', or 'Scripture'. Additionally, if the Details table is missing or has missing columns, the app will prompt for user input and create a new Bible file named `<BibleFileName>.msb.sqlite`, which will then be used instead.
+
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support1.PNG" style="height: 600px; width: auto;">
+<br>
+When a compatibility issue occurs while reading a Bible text data file, a warning icon will appear next to it in the Bible selection window. The name of the affected Bible file is shown in the red box.
+<br>
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support2.PNG" style="height: 600px; width: auto;">
+<br>
+When you tap on a Bible version with a warning icon, you'll see the filename along with fields that are auto-filled below for you to edit.
+<br>
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support3.PNG" style="height: 600px; width: auto;">
+<br>
+Let's say the user has edited the fields as shown above. Now tap Save to exit the screen.
+<br>
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support4.PNG" style="height: 600px; width: auto;">
+<br>
+You'll see a confirmation message like the one above, explaining that a new file (e.g., KoreanBible.msb.sqlite) will be created from the original file (e.g., KoreanBible.bbl.mybible) with the modifications you just made. Tap Save.
+<br>
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support5.PNG" style="height: 600px; width: auto;">
+<br>
+Now in the Bible selection window, the original file with the warning is removed from the list, and the newly created file appears instead.
+<br>
+<img src="MyStudyBible_2_4_Images/Bible_Data_Support6.PNG" style="height: 600px; width: auto;">
+<br>
+As shown above, you can verify in the Files app that a new file (e.g., KoreanBible.msb.sqlite) has been created in the bible folder.
+This feature will continue to be improved to support more Bible files in the future.
+
 ### Key Features Added in 2.8.0
 - The search window is now larger on iPad.
 - You can select multiple Bible versions to search through in the search settings, and the search results will show verse content from all selected versions.
