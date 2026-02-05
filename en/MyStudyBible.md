@@ -34,7 +34,7 @@ I will briefly write here what files should be placed in various folders under t
   <img src="MyStudyBible_2_4_Images/TTS_option_end_verse.PNG" style="height: 600px; width: auto;">
 </div>
 <br>
-- Improved support for a wider variety of Bible text files. The app now works if the Bible text column in the Bible table is named 'text', 'btext', or 'Scripture'. Additionally, if the Details table is missing or has missing columns, the app will prompt for user input and create a new Bible file named `<BibleFileName>.msb.sqlite`, which will then be used instead.
+- Improved support for a wider variety of Bible text files. The app now works if the Bible text column in the Bible table is named 'text', 'btext', or 'Scripture'. Additionally, if the Details table is missing or has missing columns, the app will prompt for user input and create a new Bible file named `<OriginalBibleFileName>.msb.sqlite`, which will then be used instead.
 
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support1.PNG" style="height: 600px; width: auto;">
 <br>

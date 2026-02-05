@@ -34,7 +34,7 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
   <img src="MyStudyBible_2_4_Images/TTS_option_end_verse.PNG" style="height: 600px; width: auto;">
 </div>
 <br>
-- 좀 더 다양한 성경 본문 파일을 읽을수 있도록 하였습니다. 성경 본문 데이터 파일내의 Bible 테이블에서 성경 본문이 있는 Column 값이 text, btext, Scripture 중 하나이면 됩니다. 또한 Details 테이블이 없거나 Details 테이블에서 누락된 Column 이 있을경우 사용자로부터 입력을 받아 <성경파일이름>.msb.sqlite 라는 새로운 성경본문데이터 파일을 생성하고 이렇게 생성된 새로운 파일을 사용하도록 하였습니다.  
+- 좀 더 다양한 성경 본문 파일을 읽을수 있도록 하였습니다. 성경 본문 데이터 파일내의 Bible 테이블에서 성경 본문이 있는 Column 값이 text, btext, Scripture 중 하나이면 됩니다. 또한 Details 테이블이 없거나 Details 테이블에서 누락된 Column 이 있을경우 사용자로부터 입력을 받아 <원본성경파일이름>.msb.sqlite 라는 새로운 성경본문데이터 파일을 생성하고 이렇게 생성된 새로운 파일을 사용하도록 하였습니다.  
 
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support1.PNG" style="height: 600px; width: auto;">
 <br>
