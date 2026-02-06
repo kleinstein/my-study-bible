@@ -33,51 +33,43 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
   <img src="MyStudyBible_2_4_Images/TTS_option_end_time.PNG" style="height: 600px; width: auto;">
   <img src="MyStudyBible_2_4_Images/TTS_option_end_verse.PNG" style="height: 600px; width: auto;">
 </div>
-<br>
+
 - 좀 더 다양한 성경 본문 파일을 읽을수 있도록 하였습니다. 성경 본문 데이터 파일내의 Bible 테이블에서 성경 본문이 있는 Column 값이 text, btext, Scripture 중 하나이면 됩니다. 또한 Details 테이블이 없거나 Details 테이블에서 누락된 Column 이 있을경우 사용자로부터 입력을 받아 <원본성경파일이름>.msb.sqlite 라는 새로운 성경본문데이터 파일을 생성하고 이렇게 생성된 새로운 파일을 사용하도록 하였습니다.  
 
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support1.PNG" style="height: 600px; width: auto;">
-<br>
-성경 본문 데이터 파일을 읽는데에 호환성 문제가 발생하면 성경 선택 창에서 이렇게 경고 아이콘이 붙어서 표시됩니다. 해당 성경파일의 이름은 빨간 사각형안에 표시됩니다.  
-<br>
-<br>
+
+성경 본문 데이터 파일을 읽는데에 호환성 문제가 발생하면 성경 선택 창에서 이렇게 경고 아이콘이 붙어서 표시됩니다. 해당 성경파일의 이름은 빨간 사각형안에 표시됩니다.
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support2.PNG" style="height: 600px; width: auto;">
-<br>
+
 경고 아이콘이 붙어있는 성경 역본을 탭하면, 위와 같이 파일이름과 더불어 아래에 수정할 부분이 일단은 자동으로 채워져서 나옵니다.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support3.PNG" style="height: 600px; width: auto;">
-<br>
+
 위와 같이 사용자가 편집을 했다고 합시다. 이제 저장을 눌러 화면을 나갑니다.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support4.PNG" style="height: 600px; width: auto;">
-<br>
+
 그러면 개역성경.bbl.mybible 파일로부터 방금 수정한 내용을 가지고 개역성경.msb.sqlite 라는 파일이 새로 생성된다는 위와 같은 안내문이 나옵니다. 저장을 누릅니다.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support5.PNG" style="height: 600px; width: auto;">
-<br>
+
 그러면 이제 위와같이 성경 선택창에서 경고문이 있던 원래의 성경 파일은 목록에서 사라지고, 대신 새롭게 생성된 파일에 대한 내용이 목록에 뜹니다.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support6.PNG" style="height: 600px; width: auto;">
-<br>
-위와 같이 파일앱에서 확인해보시면 bible 폴더 안에 개역성경.msb.sqlite 라는 파일이 새롭게 생성되었다는 것을 확인하실수 있습니다.  
-이 기능을 통해 앞으로 계속 더 많은 성경 파일을 지원할수 있도록 개선해 나가겠습니다.  
-<br>
+
+위와 같이 파일앱에서 확인해보시면 bible 폴더 안에 개역성경.msb.sqlite 라는 파일이 새롭게 생성되었다는 것을 확인하실수 있습니다.
+이 기능을 통해 앞으로 계속 더 많은 성경 파일을 지원할수 있도록 개선해 나가겠습니다.
 
 ### 2.8.0 에서 추가된 주요 기능들
 - 검색창의 크기가 아이패드일때 좀더 크게 나옵니다.  
 - 검색창에서 설정을 통해 검색할 역본을 여러개 선택할 수 있고, 검색결과에도 모든 선택한 역본의 구절 내용이 같이 나오게 됩니다.  
 <img src="MyStudyBible_2_4_Images/search_result_selected_bible.PNG" style="height: 600px; width: auto;">
 <img src="MyStudyBible_2_4_Images/search_option.PNG" style="height: 600px; width: auto;">
-<br>
 
 - 스트롱코드 번호 검색이 추가되었습니다. H123 혹은 G123 으로 H(히브리어)나 G(그리스어)를 붙여 검색할 수도 있고, 그냥 숫자만으로 검색할때에는 히브리어, 그리스어 모두에서 검색하게 됩니다. 다만 스트롱코드 사전 파일이 dict 폴더에 있어야 하고, 스트롱코드를 포함한 성경역본 파일이 bible 폴더에 있어야 제대로 작동합니다.  
 <img src="MyStudyBible_2_4_Images/search_result_strong_nr.PNG" style="height: 600px; width: auto;">
 <img src="MyStudyBible_2_4_Images/search_result_strong_dict.PNG" style="height: 600px; width: auto;">
-<br>
 
 - 노트 입력창에서 각괄호 사이에 책이름 장:절 을 입력했을때 자동으로 해당 구절이 복사되어 클립보드에 입력되는 기능이 있는데, 이때 책이름과 장:절 사이에 한 칸을 띄워야만 하던 것을 수정해서, 한 칸을 띄우지 않아도 작동하도록 하였습니다.  
 
@@ -105,7 +97,6 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 - 대조보기에서 최대 4개의 역본을 좌우로 나란히 놓고 대조해 볼 수 있습니다.  
 - 밑줄 긋기 기능에서 발생하던 여러 문제점들을 수정하였습니다.  
 <img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
-<br>
 
 ### 2.5.5 에서 추가된 주요 기능들
 - 설정창에서 주석창의 주석내용의 폰트 크기를 조절할 수 있습니다.  

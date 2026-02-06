@@ -223,6 +223,26 @@
     .theme-toggle .icon {
       font-size: 14px;
     }
+
+    /* 이미지와 텍스트 사이 간격 */
+    .markdown-section img {
+      display: block;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    /* flex 컨테이너 안의 이미지는 inline 유지 */
+    .markdown-section div[style*="display: flex"] img {
+      display: inline;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    /* flex 이미지 컨테이너 자체에 간격 */
+    .markdown-section div[style*="display: flex"] {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
   </style>
 </head>
 <body>

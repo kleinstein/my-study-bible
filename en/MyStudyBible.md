@@ -33,51 +33,43 @@ I will briefly write here what files should be placed in various folders under t
   <img src="MyStudyBible_2_4_Images/TTS_option_end_time.PNG" style="height: 600px; width: auto;">
   <img src="MyStudyBible_2_4_Images/TTS_option_end_verse.PNG" style="height: 600px; width: auto;">
 </div>
-<br>
+
 - Improved support for a wider variety of Bible text files. The app now works if the Bible text column in the Bible table is named 'text', 'btext', or 'Scripture'. Additionally, if the Details table is missing or has missing columns, the app will prompt for user input and create a new Bible file named `<OriginalBibleFileName>.msb.sqlite`, which will then be used instead.
 
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support1.PNG" style="height: 600px; width: auto;">
-<br>
+
 When a compatibility issue occurs while reading a Bible text data file, a warning icon will appear next to it in the Bible selection window. The name of the affected Bible file is shown in the red box.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support2.PNG" style="height: 600px; width: auto;">
-<br>
+
 When you tap on a Bible version with a warning icon, you'll see the filename along with fields that are auto-filled below for you to edit.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support3.PNG" style="height: 600px; width: auto;">
-<br>
+
 Let's say the user has edited the fields as shown above. Now tap Save to exit the screen.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support4.PNG" style="height: 600px; width: auto;">
-<br>
+
 You'll see a confirmation message like the one above, explaining that a new file (e.g., KoreanBible.msb.sqlite) will be created from the original file (e.g., KoreanBible.bbl.mybible) with the modifications you just made. Tap Save.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support5.PNG" style="height: 600px; width: auto;">
-<br>
+
 Now in the Bible selection window, the original file with the warning is removed from the list, and the newly created file appears instead.
-<br>
-<br>
+
 <img src="MyStudyBible_2_4_Images/Bible_Data_Support6.PNG" style="height: 600px; width: auto;">
-<br>
+
 As shown above, you can verify in the Files app that a new file (e.g., KoreanBible.msb.sqlite) has been created in the bible folder.
 This feature will continue to be improved to support more Bible files in the future.
-<br>
 
 ### Key Features Added in 2.8.0
 - The search window is now larger on iPad.
 - You can select multiple Bible versions to search through in the search settings, and the search results will show verse content from all selected versions.
 <img src="MyStudyBible_2_4_Images/search_result_selected_bible.PNG" style="height: 600px; width: auto;">
 <img src="MyStudyBible_2_4_Images/search_option.PNG" style="height: 600px; width: auto;">
-<br>
 
 - Strong's code number search has been added. You can search with H123 or G123 (H for Hebrew, G for Greek), or just search with numbers only to search both Hebrew and Greek. Note that the Strong's dictionary file must be in the dict folder, and a Bible version file containing Strong's codes must be in the bible folder for this to work properly.
 <img src="MyStudyBible_2_4_Images/search_result_strong_nr.PNG" style="height: 600px; width: auto;">
 <img src="MyStudyBible_2_4_Images/search_result_strong_dict.PNG" style="height: 600px; width: auto;">
-<br>
 
 - In the note input window, when you enter a book name and chapter:verse inside square brackets, the verse is automatically copied to the clipboard. Previously, a space was required between the book name and chapter:verse, but now it works without the space as well.
 
@@ -105,7 +97,6 @@ This feature will continue to be improved to support more Bible files in the fut
 - In comparison view, you can compare up to 4 versions side by side.
 - Fixed various issues that occurred in the underline feature.
 <img src="MyStudyBible_2_4_Images/compare_view_4_column.jpg" style="max-height: 704px; height: auto; width: auto; max-width: 100%;">
-<br>
 
 ### Key Features Added in 2.5.5
 - You can adjust the font size of commentary content in the commentary window from the settings window.
