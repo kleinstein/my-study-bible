@@ -29,7 +29,7 @@ I will briefly write here what files should be placed in various folders under t
 - Fixed minor bugs in parts using the TTS engine.  
 - Added a "Read Bible Passage Aloud" button for the corresponding passage in the reading plan.  
 
-<img src="MyStudyBible_2_4_Images/reading_plan_tts_en.PNG" style="height: 600px; width: auto;">
+<img src="MyStudyBible_2_4_Images/reading_plan_tts_en.png" style="height: 600px; width: auto;">
 
 ### Key Features Added in 2.8.3
 - Added the ability for users to select one of three options for how to handle sounds from other apps during TTS voice playback.  
