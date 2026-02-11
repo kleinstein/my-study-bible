@@ -25,6 +25,13 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Key Features Added in 2.8.5
+- Fixed minor bugs in parts using the TTS engine.  
+- Added a "Read Bible Passage Aloud" button for the corresponding passage in the reading plan.  
+
+### Key Features Added in 2.8.3
+- Added the ability for users to select one of three options for how to handle sounds from other apps during TTS voice playback.  
+
 ### Key Features Added in 2.8.2
 - Implemented multi-buffering in the Bible reading feature for smoother playback. However, on slower devices, you may need to wait briefly when starting to read.
 - You can now set the TTS to stop reading at a specific verse.
