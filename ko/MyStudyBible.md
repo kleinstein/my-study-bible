@@ -29,6 +29,8 @@ MyStudyBible 폴더 아래의 여러 폴더들에 어떤 파일들을 넣어야 
 - TTS 엔진을 사용하는 부분에서 작은 버그들 수정.  
 - 리딩플랜에서 해당 구절에 대해 성경 읽어주기 버튼 추가.  
 
+<img src="MyStudyBible_2_4_Images/reading_plan_tts.PNG" style="height: 600px; width: auto;">
+
 ### 2.8.3 에서 추가된 주요 기능들
 - TTS 음성 재생시 다른 앱의 소리를 어떻게 처리할지에 대해 세 가지 옵션중 하나를 사용자가 설정할수 있도록 하였습니다.  
 
