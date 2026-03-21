@@ -9,6 +9,58 @@ When iCloud sync is enabled, all data used is stored in iCloud Drive.
 This allows you to edit stored files on Mac and Windows as well.
 MyStudyBible currently supports English and Korean.
 
+### Version 3.0.1 Released. (21 March 2026)
+[View Version 3.0.1 Fixes](/en/MyStudyBible?id=fixes-in-301)
+<br>
+
+### Version 3.0.0 Released. (14 March 2026)
+[View Version 3.0.0 Key Features](/en/MyStudyBible?id=key-features-added-in-300)
+<br>
+
+### Version 2.9.9 Released.
+[View Version 2.9.9 Key Features](/en/MyStudyBible?id=key-features-added-in-299)
+<br>
+
+### Version 2.9.8 Released.
+[View Version 2.9.8 Fixes](/en/MyStudyBible?id=fixes-in-298)
+<br>
+
+### Version 2.9.7 Released.
+[View Version 2.9.7 Fixes](/en/MyStudyBible?id=fixes-in-297)
+<br>
+
+### Version 2.9.6 Released.
+[View Version 2.9.6 Fixes](/en/MyStudyBible?id=fixes-in-296)
+<br>
+
+### Version 2.9.5 Released.
+[View Version 2.9.5 Fixes](/en/MyStudyBible?id=fixes-in-295)
+<br>
+
+### Version 2.9.4 Released.
+[View Version 2.9.4 Key Features](/en/MyStudyBible?id=key-features-added-in-294)
+<br>
+
+### Version 2.9.3 Released.
+[View Version 2.9.3 Key Features](/en/MyStudyBible?id=key-features-added-in-293)
+<br>
+
+### Version 2.9.2 Released.
+[View Version 2.9.2 Key Features](/en/MyStudyBible?id=key-features-added-in-292)
+<br>
+
+### Version 2.9.1 Released.
+[View Version 2.9.1 Key Features](/en/MyStudyBible?id=key-features-added-in-291)
+<br>
+
+### Version 2.9.0 Released.
+[View Version 2.9.0 Key Features](/en/MyStudyBible?id=key-features-added-in-290)
+<br>
+
+### Version 2.8.7 Released.
+[View Version 2.8.7 Key Features](/en/MyStudyBible?id=key-features-added-in-287)
+<br>
+
 ### Version 2.8.5 Released. (10 February 2026)
 [View Version 2.8.5 Key Features](/en/MyStudyBible?id=key-features-added-in-285)
 <br>
@@ -111,21 +163,6 @@ I hope this small result of mine can be of some help to those who actually study
 
 [MyStudyBible App Store Download](https://apps.apple.com/us/app/mystudybible/id6743988874)
 
-
-[Mac Person Relationship Editor Download 1 (Naver account required to download)](https://naver.me/GRu5Mz3j)
-[Mac Person Relationship Editor Download 2 (Google Drive)](https://drive.google.com/drive/folders/1A6oZ2GKBe6nNGWUiDnpRsL-aX61EcJTc?usp=sharing)
-
-[Windows Person Relationship Editor Download 1 (Naver account required to download)](https://naver.me/GhSHwN6e)
-[Windows Person Relationship Editor Download 2 (Google Drive)](https://drive.google.com/drive/folders/1B1HwnDvwVVj0a9d2tNcs3LnlOwqS0DCn?usp=sharing)
-
-<br>
-If the reading plan file was not copied along with the MyStudyBible app installation, you can download the CSV files below and import them.<br>
 <br>
 
-[Download Reading Plan File (Chronological Order - New Testament Added)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/리딩%20플랜%20연대순-신약추가.csv)<br>
-[Download Reading Plan File (Biblical Order)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/리딩%20플랜%20목차순.csv)<br>
-[Reading Plan File Download (Biblical Order)](https://raw.githubusercontent.com/kleinstein/my-study-bible/main/reading_plan_files/reading%20plan%20In%20biblical%20order.csv)
-<br>
-
-
-Contact: sungkwon dot jung at outlook dot com
+Contact: kleinstein@naver.com

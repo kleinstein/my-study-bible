@@ -25,6 +25,98 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Fixes in 3.0.1
+- Fixed an issue where Bible reference links were not recognized in comparison mode.
+- Fixed an issue where SUP tags in uppercase were not recognized.
+- Fixed to recognize B tags and other tags regardless of case sensitivity.
+
+### Key Features Added in 3.0.0
+- Hyperlinks on table of contents pages in the book viewer now work correctly.
+- In the book viewer, Bible reference verses marked with `class=bible` are now automatically displayed inline on the page.
+- Fixed an issue where B tags were displayed as raw text in subtitles.
+- Bible references in the book viewer are now automatically detected and converted to clickable links.
+- In the person selection window, you can now delete a person by swiping their name to the left.
+- In the person selection window, when selecting a person, you can now choose to register them for the current verse only, or for all verses where the person's name appears.
+- Fixed to support more Bible links in the Strong's dictionary.
+
+### Key Features Added in 2.9.9
+- Partial markdown syntax support in the note editor (bold, italic, underline, bullet list, blockquote, etc.).
+- Fixed an issue where links in the TOC of some books were not working.
+- Added automatic Bible verse display for referenced verses in some books.
+- Bible version order can now be rearranged in the version selection window.
+- Improved the method for rearranging comparison version order in Settings > Comparison Version Management.
+- Fixed an issue where the view button at the bottom of the hymnal viewer was cut off.
+- Improved the person relationship editing method. Users can now select and add appearing characters directly from the current verse.
+- Footnote Bible references in the Bible text can now be viewed in a popup window.
+
+### Fixes in 2.9.8
+- Fixed an issue on iPad where the background scrolled down when dismissing the commentary window by swiping down.
+- Added left/right padding in full-screen mode on iPad to prevent overlap with the multitasking button.
+- Added the ability to search by title in the hymnal selection window.
+
+### Fixes in 2.9.7
+- Fixed an issue where the Bible version selection button was hidden behind the multitasking button.
+- Fixed an issue where the background scrolled down when dismissing the bookmark category management and reading history windows by swiping.
+- In the book viewer's table of contents, the previously selected item now auto-scrolls into view.
+
+### Fixes in 2.9.6
+- Fixed an issue where images were not displayed in .bok.mybible format book files that primarily contain images.
+- Fixed an issue where images in dictionary search results were not displayed.
+- Improved the dictionary search algorithm.
+- Added the ability to adjust line spacing in Bible search results (fixes the issue of narrow line spacing when using custom fonts).
+- Improved the hymnal number selection UI for faster selection.
+
+### Fixes in 2.9.5
+- Fixed a bug where the verse selection background color appeared as black.
+- Fixed an issue in the book viewer where the page scrolled to the top after opening and closing a Bible reference popup.
+- Fixed an issue where the verse selection background color did not work properly in comparison view.
+
+### Key Features Added in 2.9.4
+- Confirmed swipe-down-to-dismiss behavior for the bookmark category management and reading history windows on iPad.
+- Fixed an issue on iPad where the highlight change window was cut off at the top and bottom.
+- Fixed an issue where tapping the "Go to Verse" button navigated to the first verse of the chapter instead of the target verse.
+- When navigating to a verse, the verse is now highlighted with a background color to indicate selection. Similarly, when a user taps a verse, it is also highlighted. The highlight color can be customized by the user.
+- Line spacing adjustment is now available in the book viewer.
+- Fixed an issue where blank entries appeared in the Highlights and Notes tabs within Reading History mode.
+- Added a new "Exact Phrase Match" search method to the search options.
+
+### Key Features Added in 2.9.3
+- On iPad, the size of the note input window, bookmark management window, and history (reading history) window can now be adjusted by the user in settings.
+- On iPad, when the note input window is open, it will no longer disappear when tapping outside the window, when Siri activates another app, or when switching apps and returning.
+- Improved the description text related to categories when adding bookmarks to be clearer.
+- A new "Notes" tab has been added to the Reading History window accessible from the hamburger button in the lower right.
+- In the Highlights and Underlines tabs of the Reading History window, a "Go to Verse" button has been added to the upper left of the Bible reference popup window.
+- In the Notes tab of the Reading History window, tapping a Bible reference text now navigates directly to that verse and opens the note editor.
+- The book viewer now remembers the last reading position and automatically opens to that position when reopening the same book.
+- When double-tapping on a verse with an existing highlight, a "Change Highlight" menu now appears. Tapping it opens a window where you can change the highlight color or remove the highlight.
+- Fixed a bug where images were not deleted when tapping the delete button in the image viewer that appears after double-tapping a verse with an attached image.
+
+### Key Features Added in 2.9.2
+- Widget functionality has been newly implemented. Highlighted or underlined verses are displayed on the widget, rotating at user-defined time intervals.
+- In the book viewer, the table of contents title at the top is now centered relative to the iPhone Dynamic Island.
+- Bible hyperlinks in book content now work correctly in the book viewer (only when valid anchor tags exist in the content).
+- Highlighted and noted verses can now be viewed in the Reading History window accessible from the hamburger button in the lower right.
+- Highlight colors are no longer limited to a single color — you can now set different highlight colors for individual verses. The provided default colors can also be changed by long-pressing them.
+- The reading plan icon in the upper right on iPhone has been changed to a calendar icon, matching the reading plan icon in the MyStudyBible Desktop app.
+- In dictionary search results, BR tags are now properly applied according to their count.
+
+### Key Features Added in 2.9.1
+- Added a "Clear All Recent Searches" button in the search window.
+- When unchecking a specific dictionary in the dictionary search settings, the unchecked state is now preserved after app restart.
+- The close button is now positioned in the upper right when opening books and hymnals.
+- Improved parsing of various Bible verse link formats in search result text.
+- Dictionary and book order can now be rearranged.
+
+### Key Features Added in 2.9.0
+- You can now read .bok.mybible format book files by creating a folder named "book" and placing the files inside. Tap the hamburger button in the lower right to access them.
+- You can now search dictionaries by placing .dct.mybible format dictionary files in the dict folder. Tap the magnifying glass button in the upper right of the screen to see the new dictionary search tab.
+- Changed the hymnal viewer arrow color to gray.
+- The user's selected hymnal number is no longer reset to 001.
+
+### Key Features Added in 2.8.7
+- When editing person relationship appearing characters, you can now add "exclusion words" to prevent partial name matches from registering unrelated verses. For example, if a person named "Ham" is created, verses containing the word "hammer" would also register "Ham" as an appearing character. By adding "hammer" as an exclusion word for "Ham", those verses will no longer register "Ham" as an appearing character.
+- Added support for hymnal files (.bok.mybible) to view hymnal images. Create a folder named "hymn" and place the .bok.mybible files inside, then access them through the hamburger button in the lower right.
+
 ### Key Features Added in 2.8.5
 - Fixed minor bugs in parts using the TTS engine.  
 - Added a "Read Bible Passage Aloud" button for the corresponding passage in the reading plan.  
