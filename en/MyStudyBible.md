@@ -25,6 +25,15 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Updates in 3.0.4
+- Added support for Q tag interlinear Bible.
+- Improved dictionary search method. (Modified to let users select from a list of matching headwords.)
+- Fixed an issue where the first character's consonant and vowel were separated when typing a relationship in the person relationship editor.
+- Improved automatic recognition of various Bible references in commentary content.
+
+### Updates in 3.0.3
+- Added support for GRVi interlinear format.
+
 ### Fixes in 3.0.1
 - Fixed an issue where Bible reference links were not recognized in comparison mode.
 - Fixed an issue where SUP tags in uppercase were not recognized.
