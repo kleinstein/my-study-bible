@@ -25,6 +25,12 @@ I will briefly write here what files should be placed in various folders under t
 
 ## Version History
 
+### Updates in 3.0.5
+- Added RMAC (Robinson's Morphological Analysis Codes) dictionary support. When viewing interlinear Bibles, tapping a morphology code (e.g., V-AIA-3P, N-NFS, Conj) now opens a popup showing its grammatical meaning.
+- The app automatically detects RMAC dictionaries from the `dict` folder by examining file content, so the dictionary filename does not need to be specific.
+- Bible files with an embedded Dictionary table (e.g., BIB++) are checked first. If the morphology code is not found there, the external RMAC dictionary in the `dict` folder is used as a fallback.
+- Fixed an issue where Greek original text and morphology codes were not displayed for certain interlinear Bible formats (e.g., BIB++ Berean Interlinear Bible).
+
 ### Updates in 3.0.4
 - Added support for Q tag interlinear Bible.
 - Improved dictionary search method. (Modified to let users select from a list of matching headwords.)
