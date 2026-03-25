@@ -1,12 +1,12 @@
-# MyStudyBible is an iPhone and iPad exclusive app.
+# MyStudyBible — Bible Study App for iPhone, iPad, and Mac
 
 <img src="MyStudyBible_2_4_Images/bibleAppIcon.png" width="200">
 
 <br>
 
-MyStudyBible is a free Bible app for iPhone and iPad available on App Stores worldwide.
-When iCloud sync is enabled, all data used is stored in iCloud Drive.
-This allows you to edit stored files on Mac and Windows as well.
+MyStudyBible is a free Bible app for iPhone, iPad, and Mac available on App Stores worldwide.
+The macOS Desktop version is coming soon to the Mac App Store.
+When iCloud sync is enabled, all data used is stored in iCloud Drive, keeping your data in sync across all your Apple devices.
 MyStudyBible currently supports English and Korean.
 
 ### Version 3.0.5 Released. (25 March 2026)
@@ -124,50 +124,26 @@ After version 2.3.1, I thought I wouldn't have time for a while, but due to chan
 
 So I was able to support the **Original Text Analysis Bibles** available from [Naver Cafe](https://cafe.naver.com/thewordkor), and **KJV Bible with Strong's codes along with Strong's dictionary**.
 
-##### MyStudyBible App's New Feature: Person Relationship Editor/Viewer
-I also added a completely new feature.
-It's a feature that allows you to view and directly manage relationships between biblical characters.
+##### MyStudyBible Desktop for Mac — Coming Soon
 
-In person relationships, the relationship information always changes depending on whether person A or person B is the 'reference person' or 'related person'.
-From Adam's perspective, Cain is his son, and from Cain's perspective, Adam is his father.
+In addition to the iPhone and iPad app, a **macOS Desktop version** of MyStudyBible is now being developed and is coming soon to the Mac App Store.
 
-So relationship data must be written bidirectionally.
+The Desktop version brings the full Bible study experience to a larger screen, with features including:
+- **Multi-translation Bible reading** with the same SQLite-based Bible files
+- **Dictionary search** for looking up words across multiple dictionary files
+- **Book viewer** for reading .bok.mybible format books
+- **Hymnal viewer** for viewing hymnal scans
+- **Comparison and side-by-side view** modes
+- **Cross-references, bookmarks, highlights, underlines, and notes**
+- **Reading plans** with CSV import
+- **Keyboard shortcuts** for efficient navigation
+- **Bilingual UI** (Korean and English)
 
-And the Bible has many people with the same name,
-And for the same person, the name mentioned may change before and after a specific period of time.
-Additionally, there are various nicknames for the same person, so sometimes nicknames are written.
+The Desktop app uses the same data format as the iOS app, so when iCloud sync is enabled, your Bible data, notes, bookmarks, and highlights stay in sync across all your Apple devices.
 
-So whenever a new person is created or a new related person is added, at least a duplicate name check is performed.
-I made it so users can choose whether to really create a new person entered by the user, or select an existing saved person.
-All this information is stored in the person_relationships.sqlite file under the user_data folder in the MyStudyBible app.
+##### iCloud Sync
 
-Also, I made it search the current default Bible with the name and nickname of the new person entered by the user, and register all searched verses as 'appearing characters'. As a result, when a person named 'Ham' is created, every verse containing the character 'Ham', such as 'together', 'by doing so', etc., will have 'Ham' registered as an appearing character. Users must manually remove such verses from the appearing characters.
-This part is very inconvenient, but I think it's unavoidable. I couldn't think of any other ideas.
-
-However, creating and managing this person data on the iPhone wasn't efficient with the small screen.
-So with the help of AI, I created a 'Person Relationship Editor' that can be used on Mac. I used Python and a library called pyQT6.
-
-##### Person Relationship Editor (Mac, Windows)
-
-The Person Relationship Editor uses the Bible file used in MyStudyBible, the person_relationships.sqlite file where person relationships are stored, and one additional DB file.
-One additional DB file is an **MDict dictionary file**. I made it easy to get more detailed information about people using **MDict dictionaries** like _Ezra Bible Dictionary_.
-
-And the Person Relationship Editor currently works on Mac and Windows. Please distinguish whether you will use it on Mac or Windows when downloading.
-
-Also, to ensure that the results of work done on Mac through the Person Relationship Editor can be viewed smoothly on iPhone/iPad, I eventually added the iCloud sync feature.
-
-##### MyStudyBible App's New Feature: iCloud Sync
-
-When the iCloud sync feature is turned on, all files in 'On My iPhone'-> MyStudyBible in the iPhone/iPad 'Files' app are copied to the 'iCloud'->MyStudyBible folder, and from then on, all information is stored in the 'iCloud'->MyStudyBible folder.
-
-When the iCloud sync feature is turned on on iPhone and iPad, they use the same file in the 'iCloud'->MyStudyBible folder, so synchronization occurs automatically.
-Thanks to this, on Mac, you can also access all files under the 'iCloud'->MyStudyBible folder.
-So if you directly select and use the person_relationships.sqlite file under the 'iCloud'->MyStudyBible->user_data' folder and the Bible file that will be the basis of person relationships in the Mac Person Relationship Editor, the modified content will also be visible on the iPhone.
-
-For Windows, I'm still looking into how to automatically synchronize files with iCloud.
-For now, it seems you'll need to copy the person_relationships.sqlite file under the user_data folder of the MyStudyBible app to Windows, work on Windows, and then copy it back to iPhone/iPad. I installed iCloud on the Windows I use, but for some reason, the MyStudyBible folder itself is not visible on Windows.. -.-
-
-This concludes the development story related to version 2.5.
+When iCloud sync is turned on, all files are stored in the 'iCloud' -> MyStudyBible folder, and from then on, all information is saved and updated there. This means your iPhone, iPad, and Mac all share the same data automatically.
 
 I hope this small result of mine can be of some help to those who actually study the Bible.
 

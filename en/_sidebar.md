@@ -4,4 +4,4 @@
 
 * [MyStudyBible Tips](/en/MyStudyBibleTips)
 
-* [Person Relationship Editor (iPhone, iPad)](/en/PersonRelationshipEditor-iphone)
+* [Person Relationship Feature](/en/PersonRelationship)

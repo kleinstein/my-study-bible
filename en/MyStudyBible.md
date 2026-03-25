@@ -2,7 +2,9 @@
 
 For a long time, I have been using MySword Bible on Android and theWord Bible app for Windows.
 Then, for personal reasons, my computer environment changed to Mac and iPhone, but I couldn't find a Bible app on iPhone that was as good as what I used on Android.
-So I used the latest AI to the fullest and ended up creating this Bible app for iPhone/iPad.
+So I used the latest AI to the fullest and ended up creating this Bible app for iPhone, iPad, and Mac.
+
+The **macOS Desktop version** is coming soon to the Mac App Store, bringing the full Bible study experience to a larger screen with keyboard shortcuts and a native Mac interface.
 
 Eventually, I made it support English as well so that as many people as possible could use it, and it has even reached the point of being distributed for free through the App Store worldwide.
 Perhaps English-speaking users may hesitate to use it due to the language barrier because the introduction section of the App Store is in Korean, but I think that over time, if users recognize it as a good app, it will spread through word of mouth.
@@ -21,7 +23,9 @@ I will briefly write here what files should be placed in various folders under t
 - **Images**: If you allow photo access permission within the app, selected photos for that verse are automatically copied and saved here. For reference, if the image filename starts with the format 'BookName-ChapterNumber-VerseNumber_xxxxx', the app will automatically load it.
 - **mapdata**: Put Sqlite format map data files here. You can get them from the Naver Cafe introduced earlier.
 - **user_data**: User data created within the app, such as user notes, highlights, underlines, bookmarks, and imported reading plans, are saved here in sqlite format. (This is not a folder where you put files you obtained directly)
-- **dict (Created from MyStudyBible version 2.5)**: Put MySword Strong's dictionary database files here.
+- **dict**: Put MySword Strong's dictionary files (.dct.mybible) and general dictionary files here. Dictionary search is available from the search screen.
+- **book**: Put .bok.mybible format book files here. Access them through the hamburger button in the lower right.
+- **hymn**: Put .bok.mybible format hymnal scan files here. Access them through the hamburger button in the lower right.
 
 ## Version History
 
@@ -253,24 +257,6 @@ Version 2.5.1 is mostly bug fixes with the following additional features:
   <img src="MyStudyBible_2_4_Images/heb-greek-view4.png" style="height: 600px; width: auto;">
   <img src="MyStudyBible_2_4_Images/heb-greek-view5.png" style="height: 600px; width: auto;">
 </div>
-
-##### You can enter and manage person relationships.
-- When you open the menu with a double tap, the 'Edit Person Relationship' menu is displayed.
-- A person icon is displayed after verses where person relationships are saved, and when you tap the person icon, the person relationship window is displayed.
-- Person relationships must be filled in directly by the user. It is not easy to work on the small screen of an iPhone, so we plan to distribute a Person Relationship Editor for Mac and Windows through this website.
-
-<div style="display: flex; gap: 10px; overflow-x: auto; padding: 20px; background-color: #ffffffff; border-radius: 10px;">
-  <img src="MyStudyBible_2_4_Images/person_relation1.png" style="height: 600px; width: auto;">
-  <img src="MyStudyBible_2_4_Images/person_relation2.png" style="height: 600px; width: auto;">
-  <img src="MyStudyBible_2_4_Images/person_relation3.png" style="height: 600px; width: auto;">
-  <img src="MyStudyBible_2_4_Images/person_relation4.png" style="height: 600px; width: auto;">
-  <img src="MyStudyBible_2_4_Images/person_relation5.png" style="height: 600px; width: auto;">
-</div>
-
-##### We plan to distribute a Person Relationship Editor for Mac and Windows.
-- When it is difficult to edit complex person relationships on the small iPhone screen, I created a Person Relationship Editor that can be run on Mac and Windows using Python and the pyQT6 library. AI helped a lot. ;-)
-
-- [View Person Relationship Editor Manual](https://kleinstein.github.io/my-study-bible/#/en/PersonRelationshipEditor-mac)
 
 ##### iCloud Drive support.
 - You can turn iCloud sync on or off in the settings window.
