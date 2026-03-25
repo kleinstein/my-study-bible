@@ -4,15 +4,14 @@ For a long time, I have been using MySword Bible on Android and theWord Bible ap
 Then, for personal reasons, my computer environment changed to Mac and iPhone, but I couldn't find a Bible app on iPhone that was as good as what I used on Android.
 So I used the latest AI to the fullest and ended up creating this Bible app for iPhone, iPad, and Mac.
 
-The **macOS Desktop version** is coming soon to the Mac App Store, bringing the full Bible study experience to a larger screen with keyboard shortcuts and a native Mac interface.
+The **macOS Desktop version** is coming soon to the Mac App Store, bringing the full Bible study experience to a larger screen with keyboard and a native Mac interface.
 
 Eventually, I made it support English as well so that as many people as possible could use it, and it has even reached the point of being distributed for free through the App Store worldwide.
 Perhaps English-speaking users may hesitate to use it due to the language barrier because the introduction section of the App Store is in Korean, but I think that over time, if users recognize it as a good app, it will spread through word of mouth.
 
 And most of the data used in this app must be obtained directly by users, and there is also the inconvenience of having to copy those data files directly into various folders under the MyStudyBible folder created after installing the app. However, to avoid licensing issues, I had no choice but to make this decision.
 
-For your reference, if you go to the Naver Cafe below, you will be able to obtain more data.
-Naver Cafe: https://cafe.naver.com/thewordkor
+For your reference, if you go to the MySword Website, you will be able to obtain more data.
 
 I will briefly write here what files should be placed in various folders under the MyStudyBible folder.
 
