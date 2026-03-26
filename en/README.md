@@ -28,7 +28,7 @@ The Desktop app uses the same data format as the iOS app, so when iCloud sync is
 
 ### iCloud Sync
 
-When iCloud sync is turned on, all files are stored in the iCloud > MyStudyBible folder, and from then on, all information is saved and updated there. This means your iPhone, iPad, and Mac all share the same data automatically.
+When iCloud sync is turned on, all files are stored in the iCloud Drive > MyStudyBible folder, and from then on, all information is saved and updated there. This means your iPhone, iPad, and Mac all share the same data automatically.
 
 ### Version History
 
