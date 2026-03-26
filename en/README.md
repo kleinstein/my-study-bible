@@ -5,7 +5,7 @@
 <br>
 
 MyStudyBible is a free Bible app for iPhone, iPad, and Mac available on App Stores worldwide.
-The macOS Desktop version is coming soon to the Mac App Store.
+The macOS Desktop version is now available on the Mac App Store.
 When iCloud sync is enabled, all data used is stored in iCloud Drive, keeping your data in sync across all your Apple devices.
 MyStudyBible currently supports English and Korean.
 
@@ -124,9 +124,9 @@ After version 2.3.1, I thought I wouldn't have time for a while, but due to chan
 
 So I was able to support the **Original Text Analysis Bibles** available from [Naver Cafe](https://cafe.naver.com/thewordkor), and **KJV Bible with Strong's codes along with Strong's dictionary**.
 
-##### MyStudyBible Desktop for Mac — Coming Soon
+##### MyStudyBible Desktop for Mac — Now Available!
 
-In addition to the iPhone and iPad app, a **macOS Desktop version** of MyStudyBible is now being developed and is coming soon to the Mac App Store.
+In addition to the iPhone and iPad app, a **macOS Desktop version** of MyStudyBible is now available on the Mac App Store.
 
 The Desktop version brings the full Bible study experience to a larger screen, with features including:
 - **Multi-translation Bible reading** with the same SQLite-based Bible files
@@ -149,7 +149,9 @@ I hope this small result of mine can be of some help to those who actually study
 
 ### Download
 
-[MyStudyBible App Store Download](https://apps.apple.com/us/app/mystudybible/id6743988874)
+[MyStudyBible for iPhone & iPad — App Store](https://apps.apple.com/us/app/mystudybible/id6743988874)
+
+[MyStudyBible Desktop for Mac — Mac App Store](https://apps.apple.com/app/mystudybibledesktop/id6760118799)
 
 <br>
 
