@@ -4,7 +4,7 @@ For a long time, I have been using MySword Bible on Android and theWord Bible ap
 Then, for personal reasons, my computer environment changed to Mac and iPhone, but I couldn't find a Bible app on iPhone that was as good as what I used on Android.
 So I used the latest AI to the fullest and ended up creating this Bible app for iPhone, iPad, and Mac.
 
-The **macOS Desktop version** is coming soon to the Mac App Store, bringing the full Bible study experience to a larger screen with keyboard and a native Mac interface.
+The **macOS Desktop version** is now available on the [Mac App Store](https://apps.apple.com/app/mystudybibledesktop/id6760118799), bringing the full Bible study experience to a larger screen with keyboard and a native Mac interface.
 
 Eventually, I made it support English as well so that as many people as possible could use it, and it has even reached the point of being distributed for free through the App Store worldwide.
 Perhaps English-speaking users may hesitate to use it due to the language barrier because the introduction section of the App Store is in Korean, but I think that over time, if users recognize it as a good app, it will spread through word of mouth.
